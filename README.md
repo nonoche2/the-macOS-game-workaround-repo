@@ -116,6 +116,8 @@ This is technically virtualization and not emulation since Android runs on Arm p
 - [DOSBox](https://www.dosbox.com/)
 - [Dreamm](https://aarongiles.com/dreamm/) a bespoke emulator for LucasArts games and some other miscellaneous MS-DOS games
 
+Additionnally, Intel-based Macs can dual-boot on [Batocera](https://batocera.org/), a Linux distribution centered around launching emulators and rom with a dedicated interface.
+
 ## <a id="cloud-gaming"></a>Cloud Gaming
 
 Cloud gaming runs games on a remote PC and streams the video output to your Mac in real-time, while your Mac just displays the video stream and sends controller inputs to the server. It requires a good internet connection, but it can sometimes be the only solution for specific games. Note that most of these only support a limited selection of games and require monthly payments.
