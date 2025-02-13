@@ -62,6 +62,8 @@ If you want to know if a specific game runs, there are compatibility lists:
 - [for Whisky](https://docs.getwhisky.app/game-support/index.html)
 - [for Porting Kit](https://www.portingkit.com/games)
 
+Sometimes, the Windows version of specific store launchers (GOG Galaxy, Epic Games Launcher, Amazon Games) can get updates which breaks suppport with the above software translation layers. A workaround is to use [Heroic Games Launcher](https://heroicgameslauncher.com/), a native launcher for Windows and Mac games for these stores.
+
 ## <a id="virtualization"></a>Virtualization
 
 Virtualization is different from emulation, in that it runs the native code on the host processor, when they share the same instruction set. The processor is shared between the two environments at once. For instance, a Nintendo Switch runs on an Arm processor, and thus can be virtualized on an Apple Silicon-based Mac. While there is an overhead compared to running a game on its original platform since the hardware is shared with macOS, it's generally faster than emulation as it converts one instruction set to the other. Unlike translation layers, these will run and require installing complete operating systems (like Windows or Linux), and unlike translation layers are usually more general-purpose than focused on gaming.
