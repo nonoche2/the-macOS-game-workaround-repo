@@ -62,7 +62,7 @@ If you want to know if a specific game runs, there are compatibility lists:
 - [for Whisky](https://docs.getwhisky.app/game-support/index.html)
 - [for Porting Kit](https://www.portingkit.com/games)
 
-Sometimes, the Windows version of specific store launchers (GOG Galaxy, Epic Games Launcher, Amazon Games) can get updates which breaks suppport with the above software translation layers. A workaround is to use [Heroic Games Launcher](https://heroicgameslauncher.com/), a native launcher for Windows and Mac games for these stores.
+Sometimes, the Windows version of specific store launchers (GOG Galaxy, Epic Games Launcher, Amazon Games) can get updates which breaks support with the above software translation layers. A workaround is to use [Heroic Games Launcher](https://heroicgameslauncher.com/), a native launcher for Windows and Mac games for these stores.
 
 ## <a id="virtualization"></a>Virtualization
 
