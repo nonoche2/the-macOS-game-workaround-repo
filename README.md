@@ -57,6 +57,11 @@ These apps will translate Windows API calls to macOS API calls on the fly. While
 
 Note that CrossOver usually offers the best compatibility and most up-to-date versions of Wine and the various DirectX translation interfaces. Codeweavers is also the biggest contributor to the Wine project, so supporting them helps everyone. CrossOver also comes with CrossTies, a list of game-specific fixes and workarounds for games that don't run out of the box through Wine, but starting with CrossOver 25 this will be phased out due to a better general compatibility. A common misconception about CrossOver is that the fee only allows you to use it for a year, whereas in reality you can use it forever, but you only get a year's worth of free updates. [CXPatcher](https://github.com/italomandara/CXPatcher) is a non-official tool that allows updating CrossOver's dependencies.
 
+If you want to know if a specific game runs, there are compatibility lists:
+- [for CrossOver](https://www.codeweavers.com/crossover/#compatibility)
+- [for Whisky](https://docs.getwhisky.app/game-support/index.html)
+- [for Porting Kit](https://www.portingkit.com/games)
+
 ## <a id="virtualization"></a>Virtualization
 
 Virtualization is different from emulation, in that it runs the native code on the host processor, when they share the same instruction set. The processor is shared between the two environments at once. For instance, a Nintendo Switch runs on an Arm processor, and thus can be virtualized on an Apple Silicon-based Mac. While there is an overhead compared to running a game on its original platform since the hardware is shared with macOS, it's generally faster than emulation as it converts one instruction set to the other. Unlike translation layers, these will run and require installing complete operating systems (like Windows or Linux), and unlike translation layers are usually more general-purpose than focused on gaming.
@@ -79,8 +84,8 @@ These games can be run either through emulation or virtualization depending on t
 ### <a id="sony-playstation-series"></a>Sony PlayStation Series
 
 - [ShadPS4](https://shadps4.net/) : PlayStation 4
-- [RPCS3](https://rpcs3.net/) : PlayStation 3
-- [AetherSX2](https://aethersx2.net/download-aethersx2-for-macs/) (discontinued and Apple Silicon only) and [PCSX2](https://pcsx2.net/) : PlayStation 2
+- [RPCS3](https://rpcs3.net/) : PlayStation 3 ([compatibility list](https://rpcs3.net/compatibility))
+- [AetherSX2](https://aethersx2.net/download-aethersx2-for-macs/) (discontinued and Apple Silicon only) and [PCSX2](https://pcsx2.net/) ([compatibility list](https://pcsx2.net/compat)): PlayStation 2
 - [DuckStation](https://www.duckstation.org/) : PS1
 - [Vita3K](https://vita3k.org) : PS Vita
 - [PPSSPP](https://www.ppsspp.org/) : PSP
