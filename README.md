@@ -172,4 +172,3 @@ These tools will provide native recompilations, with many quality-of-life improv
 - [Combat Master](https://www.youtube.com/watch?v=KqimNLGQBD0)
 - [Omori](https://github.com/SnowpMakes/omori-apple-silicon)
 - [Asterix & Obelix XXL: Romastered](https://www.reddit.com/r/macgaming/comments/1im79hr/a_fix_for_asterix_obelix_xxl_romastered/) (note: while that makes the game run and play perfectly for the first level, the game crashes when starting level 2…)
-- [The Elder's Scrolls II: Daggerfall](https://github.com/Interkarma/daggerfall-unity)
