@@ -95,6 +95,7 @@ These games can be run either through emulation or virtualization depending on t
 ### <a id="xbox-series"></a>Xbox Series
 
 - [Xemu](https://xemu.app/): Xbox
+- [Xenia](https://xenia.jp/): Xbox 360, the emulator has no Mac port but can be run through Software Translation Layer ([video guide](https://www.youtube.com/watch?v=ELug8rz1rBg))
 
 ### <a id="nintendo-consoles"></a>Nintendo Consoles
 
@@ -169,6 +170,5 @@ These tools will provide native recompilations, with many quality-of-life improv
 - [Half-Life 2 Episode 1 & 2](https://jxhug.notion.site/Guide-to-Installing-Half-Life-2-Episode-1-2-Using-the-Source-Engine-3a5075bb77364537a87656d358687d67)
 - [Portal](https://jxhug.notion.site/Guide-to-Installing-Portal-Using-Source-Engine-on-macOS-660803f9ced149cfa1647d38fd5a7092)
 - [Counter-Strike Source](https://jxhug.notion.site/Guide-to-Installing-Counter-Strike-Source-Using-the-Source-Engine-f956b3e067534cd0b9fed2ff7b21a64a)
-- [Combat Master](https://www.youtube.com/watch?v=KqimNLGQBD0)
 - [Omori](https://github.com/SnowpMakes/omori-apple-silicon)
 - [Asterix & Obelix XXL: Romastered](https://www.reddit.com/r/macgaming/comments/1im79hr/a_fix_for_asterix_obelix_xxl_romastered/) (note: while that makes the game run and play perfectly for the first level, the game crashes when starting level 2…)
