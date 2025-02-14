@@ -16,6 +16,8 @@ A centralized list of every known way to make games run on macOS
    - [Nintendo Consoles](#nintendo-consoles)
    - [Android](#android)
    - [MS-DOS Games](#ms-dos-games)
+   - [Windows 95-98](#Window-95-98)
+   - [MacOS 9](#MacOS-9)
 7. [Cloud Gaming](#cloud-gaming)
 8. [Local Area Streaming](#local-area-streaming)
 9. [Game Engine Ports, Hacks, and Patches](#game-engine-ports-hacks-and-patches)
@@ -24,6 +26,7 @@ A centralized list of every known way to make games run on macOS
    - [ScummVM](#scummvm)
    - [Nintendo 64 Recompilations](#nintendo-64-recompilations)
    - [Individual Mac Ports](#individual-mac-ports)
+10. [Making VR work](#making-vr-work)
 
 ## <a id="native-mac-games"></a>Native Mac Games
 
@@ -44,6 +47,7 @@ Intel-based Macs can boot on Windows like any other PC thanks to [Boot Camp](htt
 ## <a id="ios-versions"></a>iOS Versions
 
 Some Windows games have also been released for iPhone and iPad, and those apps can technically run on Apple Silicon-based Macs when allowed by their publishers on the App Store, which is arguably the closest thing to a native macOS version. However, many games are simply not allowed to run. There is a workaround for this with [PlayCover](https://playcover.io/) and [Sideloadly](https://sideloadly.io/), which are free apps that allow sideloading and running decrypted iOS/iPadOS apps on Apple Silicon-based Macs.
+For 32 bits games that won't work with PlayCover, there is an emulator for the early iPhones called [touchHLE](https://github.com/touchHLE/touchHLE/releases).
 
 ## <a id="translation-layers"></a>Translation Layers
 
@@ -115,9 +119,18 @@ This is technically virtualization and not emulation since Android runs on Arm p
 
 - [Boxer](https://boxer.thec0de.com/) : turns MS-DOS games into macOS apps with an intuitive interface
 - [DOSBox](https://www.dosbox.com/)
+- [DOSBox-X](https://dosbox-x.com/)
 - [Dreamm](https://aarongiles.com/dreamm/) a bespoke emulator for LucasArts games and some other miscellaneous MS-DOS games
 
-Additionnally, Intel-based Macs can dual-boot on [Batocera](https://batocera.org/), a Linux distribution centered around launching emulators and rom with a dedicated interface.
+### <a id="Window-95-98"></a>Windows 95/98
+- [86Box](https://github.com/86Box/86Box/releases) ([setup instructions](https://www.reddit.com/r/macgaming/comments/1ays7u7/comment/kwpurbh/))
+
+### <a id="MacOS-9"></a>MacOS 9
+Older versions of macOS X once allowed to run apps made for MacOS 9 in a dedicated environment called Classic. You can relive those days with emulators such as [Basilisk II](https://basilisk.cebix.net/), [SheepShaver](http://sheepshaver.cebix.net/) and even the classic black and white Macintosh of yore with [MiniVMac](https://www.gryphel.com/c/minivmac/).
+Edward Mendelson even made a custom distribution of SheepShaver with additional features such as a shared folders and printer support, ready to use, called [Mac OS 9](https://www.mendelson.org/macos9osx.html). (thanks [u/HomeStarRunnerTron](https://www.reddit.com/user/HomeStarRunnerTron/)!)
+
+
+Additionnally, Intel-based Macs can dual-boot on [Batocera](https://batocera.org/), a Linux distribution centered around launching emulators and rom with a dedicated interface, and Apple Silicon based Macs can dual-boot on [Asahi Linux](https://asahilinux.org/), which allows to run Windows games with Proton right from within Steam.
 
 ## <a id="cloud-gaming"></a>Cloud Gaming
 
@@ -149,6 +162,9 @@ It is possible to make a selection of Windows and Mac 32-bit games made with Uni
 - [Adobe Air games](https://pluskz.blogspot.com/2023/04/adobe-air-32-to-64.html)
 - [Unity games](https://github.com/boggydigital/mac-gaming-guides/blob/main/common/unity-porting.md)
 
+### RPG Maker games:
+You can run RPG Maker 2000/2003 games with [EasyRPG Player](https://easyrpg.org/player/downloads/#release-macos). And another very recently created tool for running RPG Maker MV, MZ, XP, VX and VX Ace games is [RPG-Maker-MacOS-Launcher](https://github.com/m5kro/RPG-Maker-MacOS-Launcher). It isn't perfectly compatible with every game built on this software, especially if it uses Windows 32 API stuff, or additional Ruby scripts, but there are workarounds for a lot of issues. (thanks [u/HomeStarRunnerTron](https://www.reddit.com/user/HomeStarRunnerTron/)!)
+
 ### <a id="mac-source-ports"></a>Mac Source Ports
 
 These are games or game engines which either became open source or were retro-engineered, compiled, signed, and notarized for macOS by Tom Kidd, supporting [156 games](https://www.macsourceports.com/) when this guide was published.
@@ -174,3 +190,9 @@ These tools will provide native recompilations, with many quality-of-life improv
 - [Counter-Strike Source](https://jxhug.notion.site/Guide-to-Installing-Counter-Strike-Source-Using-the-Source-Engine-f956b3e067534cd0b9fed2ff7b21a64a)
 - [Omori](https://github.com/SnowpMakes/omori-apple-silicon)
 - [Asterix & Obelix XXL: Romastered](https://www.reddit.com/r/macgaming/comments/1im79hr/a_fix_for_asterix_obelix_xxl_romastered/) (note: while that makes the game run and play perfectly for the first level, the game crashes when starting level 2…)
+
+## <a id="making-vr-work"></a>Making SteamVR work
+People have made some progress with running tethered VR games:
+- [video 1](https://www.youtube.com/watch?v=0tLuKZz15FY)
+- [video 2](https://www.youtube.com/watch?v=Wzk3nBWMKL8)
+(thanks [u/HomeStarRunnerTron](https://www.reddit.com/user/HomeStarRunnerTron/)!)
