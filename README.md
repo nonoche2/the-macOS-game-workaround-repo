@@ -16,7 +16,7 @@ A centralized list of every known way to make games run on macOS
    - [Nintendo Consoles](#nintendo-consoles)
    - [Android](#android)
    - [MS-DOS Games](#ms-dos-games)
-   - [Windows 95-98](#Window-95-98)
+   - [Windows 95-98](#Windows)
    - [MacOS 9](#MacOS-9)
 7. [Cloud Gaming](#cloud-gaming)
 8. [Local Area Streaming](#local-area-streaming)
@@ -123,7 +123,7 @@ This is technically virtualization and not emulation since Android runs on Arm p
 - [DOSBox-X](https://dosbox-x.com/)
 - [Dreamm](https://aarongiles.com/dreamm/) a bespoke emulator for LucasArts games and some other miscellaneous MS-DOS games
 
-### <a id="Window-95-98"></a>Windows 95/98
+### <a id="Windows"></a>Windows 95/98
 - [86Box](https://github.com/86Box/86Box/releases) ([setup instructions](https://www.reddit.com/r/macgaming/comments/1ays7u7/comment/kwpurbh/))
 
 ### <a id="MacOS-9"></a>MacOS 9
