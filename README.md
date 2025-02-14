@@ -45,6 +45,8 @@ Additionally, games that were delisted from the store are all reported as 64-bit
 
 Intel-based Macs can boot on Windows like any other PC thanks to [Boot Camp](https://support.apple.com/us-en/guide/bootcamp-control-panel/bcmp29b8ac66/mac). This will run any Windows game. Apple Silicon-based Macs cannot boot under Windows, but while Apple said it was open to making Boot Camp available for Apple Silicon-based Macs to run Windows for Arm, they said it only depended on Microsoft's approval.
 
+Additionnally, Intel-based Macs can dual-boot on [Batocera](https://batocera.org/), a Linux distribution centered around launching emulators and rom with a dedicated interface, and Apple Silicon based Macs can dual-boot on [Asahi Linux](https://asahilinux.org/), which allows to run Windows games with Proton right from within Steam.
+
 ## <a id="ios-versions"></a>iOS Versions
 
 Some Windows games have also been released for iPhone and iPad, and those apps can technically run on Apple Silicon-based Macs when allowed by their publishers on the App Store, which is arguably the closest thing to a native macOS version. However, many games are simply not allowed to run. There is a workaround for this with [PlayCover](https://playcover.io/) and [Sideloadly](https://sideloadly.io/), which are free apps that allow sideloading and running decrypted iOS/iPadOS apps on Apple Silicon-based Macs.
@@ -129,9 +131,6 @@ This is technically virtualization and not emulation since Android runs on Arm p
 ### <a id="MacOS-9"></a>MacOS 9
 Older versions of macOS X once allowed to run apps made for MacOS 9 in a dedicated environment called Classic. You can relive those days with emulators such as [Basilisk II](https://basilisk.cebix.net/), [SheepShaver](http://sheepshaver.cebix.net/) and even the classic black and white Macintosh of yore with [MiniVMac](https://www.gryphel.com/c/minivmac/).
 Edward Mendelson even made a custom distribution of SheepShaver with additional features such as a shared folders and printer support, ready to use, called [Mac OS 9](https://www.mendelson.org/macos9osx.html). (thanks [u/HomeStarRunnerTron](https://www.reddit.com/user/HomeStarRunnerTron/)!)
-
-
-Additionnally, Intel-based Macs can dual-boot on [Batocera](https://batocera.org/), a Linux distribution centered around launching emulators and rom with a dedicated interface, and Apple Silicon based Macs can dual-boot on [Asahi Linux](https://asahilinux.org/), which allows to run Windows games with Proton right from within Steam.
 
 ## <a id="cloud-gaming"></a>Cloud Gaming
 
