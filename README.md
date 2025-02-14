@@ -45,7 +45,7 @@ Additionally, games that were delisted from the store are all reported as 64-bit
 
 Intel-based Macs can boot on Windows like any other PC thanks to [Boot Camp](https://support.apple.com/us-en/guide/bootcamp-control-panel/bcmp29b8ac66/mac). This will run any Windows game. Apple Silicon-based Macs cannot boot under Windows, but while Apple said it was open to making Boot Camp available for Apple Silicon-based Macs to run Windows for Arm, they said it only depended on Microsoft's approval.
 
-Additionnally, Intel-based Macs can dual-boot on [Batocera](https://batocera.org/), a Linux distribution centered around launching emulators and rom with a dedicated interface, and Apple Silicon based Macs can dual-boot on [Asahi Linux](https://asahilinux.org/), which allows to run Windows games with Proton right from within Steam.
+Additionnally, Intel-based Macs can dual-boot on [Batocera](https://batocera.org/), a Linux distribution centered around launching emulators and ROMs with a dedicated interface, and Apple Silicon based Macs can dual-boot on [Asahi Linux](https://asahilinux.org/), which allows to run Windows games with Proton right from within Steam.
 
 ## <a id="ios-versions"></a>iOS Versions
 
