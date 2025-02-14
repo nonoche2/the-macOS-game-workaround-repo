@@ -22,6 +22,7 @@ A centralized list of every known way to make games run on macOS
 8. [Local Area Streaming](#local-area-streaming)
 9. [Game Engine Ports, Hacks, and Patches](#game-engine-ports-hacks-and-patches)
    - [Unity and Adobe Air Games](#unity-and-adobe-air-games)
+   - [RPG Maker games](#RPG-Maker-games)
    - [Mac Source Ports](#mac-source-ports)
    - [ScummVM](#scummvm)
    - [Nintendo 64 Recompilations](#nintendo-64-recompilations)
@@ -162,7 +163,7 @@ It is possible to make a selection of Windows and Mac 32-bit games made with Uni
 - [Adobe Air games](https://pluskz.blogspot.com/2023/04/adobe-air-32-to-64.html)
 - [Unity games](https://github.com/boggydigital/mac-gaming-guides/blob/main/common/unity-porting.md)
 
-### RPG Maker games:
+### <a id="RPG-maker-games"></a>RPG Maker games:
 You can run RPG Maker 2000/2003 games with [EasyRPG Player](https://easyrpg.org/player/downloads/#release-macos). And another very recently created tool for running RPG Maker MV, MZ, XP, VX and VX Ace games is [RPG-Maker-MacOS-Launcher](https://github.com/m5kro/RPG-Maker-MacOS-Launcher). It isn't perfectly compatible with every game built on this software, especially if it uses Windows 32 API stuff, or additional Ruby scripts, but there are workarounds for a lot of issues. (thanks [u/HomeStarRunnerTron](https://www.reddit.com/user/HomeStarRunnerTron/)!)
 
 ### <a id="mac-source-ports"></a>Mac Source Ports
