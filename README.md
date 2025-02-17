@@ -22,6 +22,7 @@ A centralized list of every known way to make games run on macOS
 8. [Cloud Gaming](#cloud-gaming)
 9. [Local Area Streaming](#local-area-streaming)
 10. [Game Engine Ports, Hacks, and Patches](#game-engine-ports-hacks-and-patches)
+   - [Loading Trainers, Cheats, and Debuggers](#cheats-and-trainers)
    - [Unity and Adobe Air Games](#unity-and-adobe-air-games)
    - [RPG Maker games](#RPG-Maker-games)
    - [Mac Source Ports](#mac-source-ports)
@@ -163,6 +164,13 @@ There are also local streaming solutions allowing you to play on your Mac a game
 - [Moonlight](https://github.com/moonlight-stream/moonlight-qt): allows low-latency streaming from a NVIDIA GPU-powered PC to your Mac over your local network.
 
 ## <a id="game-engine-ports-hacks-and-patches"></a>Game Engine Ports, Hacks, and Patches
+
+### <a id="cheats-and-trainers"></a>Cheats, Debuggers, and Trainer Loading
+
+For injecting trainers, cheats, and debuggers, one can use the ChooChoo Loader Engine to act as a pre-loader.
+This ensure all processes are able to see and interact with each other in a WINE gaming enviroment.
+
+- [ChooChoo Loader](https://github.com/wowitsjack/choochoo-loader/)
 
 ### <a id="unity-and-adobe-air-games"></a>Unity and Adobe Air Games
 
