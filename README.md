@@ -8,8 +8,9 @@ A centralized list of every known way to make games run on macOS
 2. [Dual Booting](#dual-booting)
 3. [iOS Versions](#ios-versions)
 4. [Translation Layers](#translation-layers)
-5. [Virtualization](#virtualization)
-6. [Windows Games Available on Other Platforms](#windows-games-available-on-other-platforms)
+   - [Handling AVX and F16C](#avx-f16c)
+6. [Virtualization](#virtualization)
+7. [Windows Games Available on Other Platforms](#windows-games-available-on-other-platforms)
    - [Multiple Platform Emulators](#multiple-platform-emulators)
    - [Sony PlayStation Series](#sony-playstation-series)
    - [Xbox Series](#xbox-series)
@@ -18,16 +19,16 @@ A centralized list of every known way to make games run on macOS
    - [MS-DOS Games](#ms-dos-games)
    - [Windows 95-98](#windows-9598)
    - [MacOS 9](#MacOS-9)
-7. [Cloud Gaming](#cloud-gaming)
-8. [Local Area Streaming](#local-area-streaming)
-9. [Game Engine Ports, Hacks, and Patches](#game-engine-ports-hacks-and-patches)
+8. [Cloud Gaming](#cloud-gaming)
+9. [Local Area Streaming](#local-area-streaming)
+10. [Game Engine Ports, Hacks, and Patches](#game-engine-ports-hacks-and-patches)
    - [Unity and Adobe Air Games](#unity-and-adobe-air-games)
    - [RPG Maker games](#RPG-Maker-games)
    - [Mac Source Ports](#mac-source-ports)
    - [ScummVM](#scummvm)
    - [Nintendo 64 Recompilations](#nintendo-64-recompilations)
    - [Individual Mac Ports](#individual-mac-ports)
-10. [Making VR work](#making-vr-work)
+11. [Making VR work](#making-vr-work)
 
 ## <a id="native-mac-games"></a>Native Mac Games
 
@@ -71,6 +72,13 @@ If you want to know if a specific game runs, there are compatibility lists:
 
 Sometimes, the Windows version of specific store launchers (GOG Galaxy, Epic Games Launcher, Amazon Games) can get updates which breaks support with the above software translation layers. A workaround is to use [Heroic Games Launcher](https://heroicgameslauncher.com/), a native launcher for Windows and Mac games for these stores. There is also a Mac-exclusive app called [Mythic](https://getmythic.app/), which so far only supports the Epic Games Store and only runs Windows games with its own embedded version of Wine, while Heroic also allows to run games with external versions of Wine such as CrossOver.
 Finally, [Winetricks](https://github.com/Winetricks/winetricks) is a script (embedded in CrossOver, Heroic and Whisky) which allows to install necessary dependencies (such as Microsoft DLLs and fonts), tweak settings and workarounds to make games work with Wine and its derivatives.
+
+### <a id="avx-f16c"></a>Handling AVX, AVX2, FMA and F16C
+Some Windows games will sometimes require specific extentions of the Intel processors to run, such as AVX, AVX 2, FMA and F16C. The 3 first ones are handled by Rosetta 2 in macOS Sequoia, but you have to add ROSETTA_ADVERTISE_AVX=1 in the launch parameters of your game (in Steam, select your game properties, and paste it in the launch options field, at the bottom of the General tab).
+Unfortunately there is no support for F16C but you can patch it out for specific games:
+- [patch for God of War: Ragnarok](https://www.youtube.com/watch?v=eNKtbUVEgSU)
+- [patch for Ghost of Tsushima](https://www.youtube.com/watch?v=zwJwlRHW3k4)
+- [patch for Horizon Forbidden West](https://community.pcgamingwiki.com/files/file/3114-horizon-forbidden-west-f16c-инструкции-исправить/)
 
 ## <a id="virtualization"></a>Virtualization
 
