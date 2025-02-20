@@ -137,7 +137,8 @@ This is technically virtualization and not emulation since Android runs on Arm p
 
 - [Boxer](https://boxer.thec0de.com/) : turns MS-DOS games into macOS apps with an intuitive interface
 - [DOSBox](https://www.dosbox.com/)
-- [DOSBox-X](https://dosbox-x.com/)
+- [DOSBox-X](https://dosbox-x.com/) a more flexible version of DOSBox, with more features
+- [DOSBox Staging](https://www.dosbox-staging.org/) a more modern version of DOXBox, complete with CRT emulation
 - [Dreamm](https://aarongiles.com/dreamm/) a bespoke emulator for LucasArts games and some other miscellaneous MS-DOS games
 
 ### <a id="windows-9598"></a>Windows 95/98
