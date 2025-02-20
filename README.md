@@ -22,6 +22,7 @@ A centralized list of every known way to make games run on macOS
 8. [Cloud Gaming](#cloud-gaming)
 9. [Local Area Streaming](#local-area-streaming)
 10. [Game Engine Ports, Hacks, and Patches](#game-engine-ports-hacks-and-patches)
+   - [Loading Trainers, Cheats, and Debuggers](#cheats-and-trainers)
    - [Unity and Adobe Air Games](#unity-and-adobe-air-games)
    - [RPG Maker games](#RPG-Maker-games)
    - [Mac Source Ports](#mac-source-ports)
@@ -62,6 +63,11 @@ These apps will translate Windows API calls to macOS API calls on the fly. While
 - [Kegworks](https://github.com/Kegworks-App/Kegworks) (successor of Wineskin, turns Windows games into macOS apps, free and open source)
 - [Porting Kit](https://www.portingkit.com/) (turns Windows games into macOS apps, free)
 - [Wine](https://www.winehq.org/) (command-line interface only, free and open source)
+- [ChooChoo Loader](https://github.com/wowitsjack/choochoo-loader/)
+
+For injecting trainers, cheats, and debuggers, one can use the ChooChoo Loader Engine to act as a pre-loader.
+This ensure all processes are able to see and interact with each other in a WINE gaming enviroment.
+
 
 Note that CrossOver usually offers the best compatibility and most up-to-date versions of Wine and the various DirectX translation interfaces. Codeweavers is also the biggest contributor to the Wine project, so supporting them helps everyone. CrossOver also comes with CrossTies, a list of game-specific fixes and workarounds for games that don't run out of the box through Wine, but starting with CrossOver 25 this will be phased out due to a better general compatibility. A common misconception about CrossOver is that the fee only allows you to use it for a year, whereas in reality you can use it forever, but you only get a year's worth of free updates. [CXPatcher](https://github.com/italomandara/CXPatcher) is a non-official tool that allows updating CrossOver's dependencies.
 
