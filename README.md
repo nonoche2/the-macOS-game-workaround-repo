@@ -22,12 +22,12 @@ A centralized list of every known way to make games run on macOS
 8. [Cloud Gaming](#cloud-gaming)
 9. [Local Area Streaming](#local-area-streaming)
 10. [Game Engine Ports, Hacks, and Patches](#game-engine-ports-hacks-and-patches)
-   - [Unity and Adobe Air Games](#unity-and-adobe-air-games)
-   - [RPG Maker games](#RPG-Maker-games)
-   - [Mac Source Ports](#mac-source-ports)
-   - [ScummVM](#scummvm)
-   - [Nintendo 64 Recompilations](#nintendo-64-recompilations)
-   - [Individual Mac Ports](#individual-mac-ports)
+    - [Unity and Adobe Air Games](#unity-and-adobe-air-games)
+    - [RPG Maker games](#RPG-Maker-games)
+    - [Mac Source Ports](#mac-source-ports)
+    - [ScummVM](#scummvm)
+    - [Nintendo 64 Recompilations](#nintendo-64-recompilations)
+    - [Individual Mac Ports](#individual-mac-ports)
 11. [Making VR work](#making-vr-work)
 
 ## <a id="native-mac-games"></a>Native Mac Games
