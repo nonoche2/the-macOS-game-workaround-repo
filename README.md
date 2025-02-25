@@ -98,6 +98,8 @@ Virtualization is different from emulation, in that it runs the native code on t
 
 These games can be run either through emulation or virtualization depending on the processor of the platform it runs on. There are countless emulators available for macOS, supporting from the most famous to the most obscure platforms, so this list won't be exhaustive and will only feature the most prominent emulators. Some Windows games were also released on these platforms (or inversely, some games first released on older platforms were eventually released on Steam through emulation), which provides an alternative, and sometimes superior, way of playing them on macOS. Some emulators provide improvements to how the original games ran, for instance by increasing their resolution, or even supporting bespoke HD graphical packs, effectively offering a "remastered" experience.
 
+[Detailed "how-to" video](https://www.youtube.com/watch?v=hoWn4rS7Vxs) from Retro Game Corps for setting up various emulators on Mac
+
 ### <a id="multiple-platform-emulators"></a>Multiple Platform Emulators
 
 - [OpenEmu](https://openemu.org/), a scarcely updated, very polished, Mac-only app that emulates many platforms
