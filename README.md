@@ -140,12 +140,11 @@ This is technically virtualization and not emulation since Android runs on Arm p
 - [DOSBox](https://www.dosbox.com/)
 - [DOSBox-X](https://dosbox-x.com/) a more flexible version of DOSBox, with more features
 - [DOSBox Staging](https://www.dosbox-staging.org/) a more modern version of DOXBox, complete with CRT emulation
-- [86Box](https://86box.net/) : Low level harware PC emulator supporting several OSes, including BeOS & NextStep
-- [MacBox for 86Box](https://github.com/Moonif/MacBox) : optional manager app for 86Box ([video guide](https://www.youtube.com/watch?v=QLRab9n8tm8))
 - [Dreamm](https://aarongiles.com/dreamm/) a bespoke emulator for LucasArts games and some other miscellaneous MS-DOS games
 
 ### <a id="windows-9598"></a>Windows 95/98
-- [86Box](https://github.com/86Box/86Box/releases) ([setup instructions](https://www.reddit.com/r/macgaming/comments/1ays7u7/comment/kwpurbh/))
+- [86Box](https://github.com/86Box/86Box/releases) :: Low level harware PC emulator supporting several OSes, including BeOS & NextStep ([setup instructions](https://www.reddit.com/r/macgaming/comments/1ays7u7/comment/kwpurbh/))
+- [MacBox for 86Box](https://github.com/Moonif/MacBox) : optional manager app for 86Box ([video guide](https://www.youtube.com/watch?v=QLRab9n8tm8))
 
 ### <a id="MacOS-9"></a>MacOS 9
 Older versions of macOS X once allowed to run apps made for MacOS 9 in a dedicated environment called Classic. You can relive those days with emulators such as [Basilisk II](https://basilisk.cebix.net/), [SheepShaver](http://sheepshaver.cebix.net/) and even the classic black and white Macintosh of yore with [MiniVMac](https://www.gryphel.com/c/minivmac/).
