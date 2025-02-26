@@ -140,6 +140,8 @@ This is technically virtualization and not emulation since Android runs on Arm p
 - [DOSBox](https://www.dosbox.com/)
 - [DOSBox-X](https://dosbox-x.com/) a more flexible version of DOSBox, with more features
 - [DOSBox Staging](https://www.dosbox-staging.org/) a more modern version of DOXBox, complete with CRT emulation
+- [86Box](https://86box.net/) : Low level harware PC emulator supporting several OSes, including BeOS & NextStep
+- [MacBox for 86Box](https://github.com/Moonif/MacBox) : optional manager app for 86Box ([video guide](https://www.youtube.com/watch?v=QLRab9n8tm8))
 - [Dreamm](https://aarongiles.com/dreamm/) a bespoke emulator for LucasArts games and some other miscellaneous MS-DOS games
 
 ### <a id="windows-9598"></a>Windows 95/98
