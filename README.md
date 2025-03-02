@@ -210,6 +210,7 @@ These tools will provide native recompilations, with many quality-of-life improv
 - [Asterix & Obelix XXL: Romastered](https://www.reddit.com/r/macgaming/comments/1im79hr/a_fix_for_asterix_obelix_xxl_romastered/) (note: while that makes the game run and play perfectly for the first level, the game crashes when starting level 2…)
 - [Anime games](https://github.com/yaagl/yet-another-anime-game-launcher) (GI/HSR/ZZZ)
 - [Final Fantasy XIV](https://www.xivmac.com/)
+- [Badland: Game of The year edition](https://www.reddit.com/r/macgaming/comments/1j1daxy/a_fix_for_badland_game_of_the_year_edition/): fix for the crash at launch but the game still won't make any sound
 
 ## <a id="making-vr-work"></a>Making SteamVR work
 People have made some progress with running tethered VR games:
