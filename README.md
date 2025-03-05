@@ -211,6 +211,7 @@ These tools will provide native recompilations, with many quality-of-life improv
 - [Anime games](https://github.com/yaagl/yet-another-anime-game-launcher) (GI/HSR/ZZZ)
 - [Final Fantasy XIV](https://www.xivmac.com/)
 - [Badland: Game of The year edition](https://www.reddit.com/r/macgaming/comments/1j1daxy/a_fix_for_badland_game_of_the_year_edition/): fix for the crash at launch but the game still won't make any sound
+- [Sonic Unleashed](https://github.com/hedge-dev/UnleashedRecomp/pull/745): A native recompiler from the XBox 360 version (you need to provide the game files)
 
 ## <a id="making-vr-work"></a>Making SteamVR work
 People have made some progress with running tethered VR games:
