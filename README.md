@@ -105,6 +105,7 @@ These games can be run either through emulation or virtualization depending on t
 - [OpenEmu](https://openemu.org/), a scarcely updated, very polished, Mac-only app that emulates many platforms
 - [RetroArch](https://www.retroarch.com/), incidentally also available on [Steam](https://store.steampowered.com/app/1118310/RetroArch/) and the [Mac App Store](https://apps.apple.com/us/app/retroarch/id6499539433)
 - [Ares](https://ares-emu.net/)
+- [Nostlan](https://qashto.itch.io/nostlan) (paid): a front-end for multiple emulators focused on ease of use and automatic setup
 
 ### <a id="sony-playstation-series"></a>Sony PlayStation Series
 
@@ -211,7 +212,7 @@ These tools will provide native recompilations, with many quality-of-life improv
 - [Anime games](https://github.com/yaagl/yet-another-anime-game-launcher) (GI/HSR/ZZZ)
 - [Final Fantasy XIV](https://www.xivmac.com/)
 - [Badland: Game of The year edition](https://www.reddit.com/r/macgaming/comments/1j1daxy/a_fix_for_badland_game_of_the_year_edition/): fix for the crash at launch but the game still won't make any sound
-- [Sonic Unleashed](https://github.com/hedge-dev/UnleashedRecomp/pull/745): A native recompiler from the XBox 360 version (you need to provide the game files)
+- [Sonic Unleashed](https://github.com/squidbus/UnleashedRecomp/actions/runs/13664475029): A native recompiler from the XBox 360 version (you need to provide the game files)
 
 ## <a id="making-vr-work"></a>Making SteamVR work
 People have made some progress with running tethered VR games:
