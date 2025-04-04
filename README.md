@@ -79,8 +79,7 @@ Sometimes, the Windows version of specific store launchers (GOG Galaxy, Epic Gam
 Finally, [Winetricks](https://github.com/Winetricks/winetricks) is a script (embedded in CrossOver, Heroic and Whisky) which allows to install necessary dependencies (such as Microsoft DLLs and fonts), tweak settings and workarounds to make games work with Wine and its derivatives.
 
 ### <a id="avx-f16c"></a>Handling AVX, AVX2, FMA and F16C
-Some Windows games will sometimes require specific extentions of the Intel processors to run, such as AVX, AVX 2, FMA and F16C. The 3 first ones are handled by Rosetta 2 in macOS Sequoia, but you have to add ROSETTA_ADVERTISE_AVX=1 in the launch parameters of your game (in Steam, select your game properties, and paste it in the launch options field, at the bottom of the General tab).
-Unfortunately there is no support for F16C but you can patch it out for specific games:
+Some Windows games will sometimes require specific extentions of the Intel processors to run, such as AVX, AVX 2, FMA and F16C. The 3 first ones are handled by Rosetta 2 in macOS Sequoia, but you have to add ROSETTA_ADVERTISE_AVX=1 in the launch parameters of your game (in Steam, select your game properties, and paste it in the launch options field, at the bottom of the General tab). Note that as of CrossOver 25, this isn't necessary anymore as it handles it automatically. Apple added support for F16C instructions to Rosetta 2 as of macOS 15.4. Users of previous versions of macOS can apply individual patches on specific games to work around the issue:
 - [patch for God of War: Ragnarok](https://www.youtube.com/watch?v=eNKtbUVEgSU)
 - [patch for Ghost of Tsushima](https://www.youtube.com/watch?v=zwJwlRHW3k4)
 - [patch for Horizon Forbidden West](https://community.pcgamingwiki.com/files/file/3114-horizon-forbidden-west-f16c-инструкции-исправить/)
