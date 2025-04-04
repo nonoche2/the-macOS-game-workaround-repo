@@ -155,7 +155,7 @@ Edward Mendelson even made a custom distribution of SheepShaver with additional 
 
 Cloud gaming runs games on a remote PC and streams the video output to your Mac in real-time, while your Mac just displays the video stream and sends controller inputs to the server. It requires a good internet connection, but it can sometimes be the only solution for specific games. Note that most of these only support a limited selection of games and require monthly payments.
 
-- [NVidia GeForce Now](https://www.nvidia.com/en-us/geforce-now/)
+- [NVidia GeForce Now](https://www.nvidia.com/en-us/geforce-now/). If you're having stuttering issues over WiFi, [here's how to fix it](https://www.reddit.com/r/GeForceNOW/comments/195l8ff/stuttering_issues_with_geforce_now_on_macos_over/?share_id=17Q90d4Szq3qDZnRlkYGN&utm_content=2&utm_medium=ios_app&utm_name=ioscss&utm_source=share&utm_term=1)
 - [Xbox Cloud Gaming](https://www.xbox.com/en-US/cloud-gaming)
 - [Boosteroid](https://boosteroid.com/)
 - [Shadow](https://shadow.tech/)
