@@ -212,6 +212,8 @@ These tools will provide native recompilations, with many quality-of-life improv
 - [Final Fantasy XIV](https://www.xivmac.com/)
 - [Badland: Game of The year edition](https://www.reddit.com/r/macgaming/comments/1j1daxy/a_fix_for_badland_game_of_the_year_edition/): fix for the crash at launch but the game still won't make any sound
 - [Sonic Unleashed](https://github.com/squidbus/UnleashedRecomp/actions/runs/13664475029): A native recompiler from the XBox 360 version (you need to provide the game files)
+- [FnMacAssistant](https://github.com/isacucho/FnMacAssistant): a bespoke utility to download and patch the iOS/iPadOS version of Fortnite and make it run on Apple Silicon-based Macs
+- [AppleBlox](https://appleblox.com/): a Roblox launcher for macOS
 
 ## <a id="making-vr-work"></a>Making SteamVR work
 People have made some progress with running tethered VR games:
