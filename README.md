@@ -209,7 +209,7 @@ The first four are decompilations of [https://en.wikipedia.org/wiki/Christian_Wh
 - [Sonic 3 & Knuckles](https://projects.sappharad.com/s3air_mac/)
 - [Sonic CD](https://github.com/Sappharad/Sonic-CD-11-Decompilation)
 - [Sonic Mania](https://github.com/Sappharad/Sonic-Mania-Decompilation)
-- Sonic Unleashed [GitHub project](https://github.com/hedge-dev/UnleashedRecomp))[Apple Silicon binary download](https://github.com/squidbus/UnleashedRecomp/actions/runs/14414092340/artifacts/2931304077)
+- Sonic Unleashed [GitHub project](https://github.com/hedge-dev/UnleashedRecomp), [Apple Silicon binary download](https://github.com/squidbus/UnleashedRecomp/actions/runs/14414092340/artifacts/2931304077)
 
 ### <a id="individual-mac-ports"></a>Individual Mac Ports
 
