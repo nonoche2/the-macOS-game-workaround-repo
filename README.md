@@ -203,7 +203,7 @@ These tools will provide native recompilations, with many quality-of-life improv
 
 ### <a id="sonic-ports"></a>Sonic Ports
 
-The first four are decompilations of [https://en.wikipedia.org/wiki/Christian_Whitehead#Retro_Engine](Christian Whitehead)'s various versions of the Retro Engine, the last one is a recompilation of the XBox 360 version of the game. For obvious copyright reasons, you must provide game files for these to work.
+The first four are decompilations of [Christian Whitehead](https://en.wikipedia.org/wiki/Christian_Whitehead#Retro_Engine)'s various versions of the Retro Engine, the last one is a recompilation of the XBox 360 version of the game. For obvious copyright reasons, you must provide game files for these to work.
 
 - [Sonic 1 & 2](https://github.com/Sappharad/Sonic-1-2-2013-Decompilation)
 - [Sonic 3 & Knuckles](https://projects.sappharad.com/s3air_mac/)
