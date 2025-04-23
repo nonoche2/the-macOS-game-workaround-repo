@@ -27,6 +27,7 @@ A centralized list of every known way to make games run on macOS
     - [Mac Source Ports](#mac-source-ports)
     - [ScummVM](#scummvm)
     - [Nintendo 64 Recompilations](#nintendo-64-recompilations)
+    - [Sonic ports](#sonic-ports)
     - [Individual Mac Ports](#individual-mac-ports)
 11. [Making VR work](#making-vr-work)
 
@@ -200,6 +201,16 @@ These tools will provide native recompilations, with many quality-of-life improv
 - [StarFox 64](https://github.com/HarbourMasters/Starship?tab=readme-ov-file)
 - [Super Mario 64](https://mameonmacs.blogspot.com/2024/11/super-mario-64-hacks-on-apple-silicon.html)
 
+### <a id="sonic-ports"></a>Sonic Ports
+
+The first four are decompilations of [https://en.wikipedia.org/wiki/Christian_Whitehead#Retro_Engine](Christian Whitehead)'s various versions of the Retro Engine, the last one is a recompilation of the XBox 360 version of the game. For obvious copyright reasons, you must provide game files for these to work.
+
+- [Sonic 1 & 2](https://github.com/Sappharad/Sonic-1-2-2013-Decompilation)
+- [Sonic 3 & Knuckles](https://projects.sappharad.com/s3air_mac/)
+- [Sonic CD](https://github.com/Sappharad/Sonic-CD-11-Decompilation)
+- [Sonic Mania](https://github.com/Sappharad/Sonic-Mania-Decompilation)
+- Sonic Unleashed [GitHub project](https://github.com/hedge-dev/UnleashedRecomp))[Apple Silicon binary download](https://github.com/squidbus/UnleashedRecomp/actions/runs/14414092340/artifacts/2931304077)
+
 ### <a id="individual-mac-ports"></a>Individual Mac Ports
 
 - [Half-Life 2](https://github.com/Stoppedwumm/halflife2patcher) see also [this guide](https://jxhug.notion.site/Guide-to-Installing-Half-Life-2-Using-Source-Engine-on-macOS-9fa5ffc910f5454ab0f0e5da2a9e5b9f)
@@ -211,7 +222,6 @@ These tools will provide native recompilations, with many quality-of-life improv
 - [Anime games](https://github.com/yaagl/yet-another-anime-game-launcher) (GI/HSR/ZZZ)
 - [Final Fantasy XIV](https://www.xivmac.com/)
 - [Badland: Game of The year edition](https://www.reddit.com/r/macgaming/comments/1j1daxy/a_fix_for_badland_game_of_the_year_edition/): fix for the crash at launch but the game still won't make any sound
-- [Sonic Unleashed](https://github.com/squidbus/UnleashedRecomp/actions/runs/13664475029): A native recompiler from the XBox 360 version (you need to provide the game files)
 - [FnMacAssistant](https://github.com/isacucho/FnMacAssistant): a bespoke utility to download and patch the iOS/iPadOS version of Fortnite and make it run on Apple Silicon-based Macs
 - [AppleBlox](https://appleblox.com/): a Roblox launcher for macOS
 
