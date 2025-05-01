@@ -200,6 +200,7 @@ These tools will provide native recompilations, with many quality-of-life improv
 - [The Legend of Zelda: Majora's Mask](https://github.com/HarbourMasters/2ship2harkinian/releases)
 - [StarFox 64](https://github.com/HarbourMasters/Starship?tab=readme-ov-file)
 - [Super Mario 64](https://mameonmacs.blogspot.com/2024/11/super-mario-64-hacks-on-apple-silicon.html)
+- [Perfect Dark](https://github.com/shinra-electric/Perfect-Dark-Build-Script)
 
 ### <a id="sonic-ports"></a>Sonic Ports
 
