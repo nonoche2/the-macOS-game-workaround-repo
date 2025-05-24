@@ -163,6 +163,7 @@ Cloud gaming runs games on a remote PC and streams the video output to your Mac 
 - [AntStream](https://www.antstream.com) (retro games)
 - [Steam Link](https://apps.apple.com/us/app/steam-link/id1246969117) (Mac App Store link) : a selection of Steam games can be played online with friends with games they own and run on their PC.
 - [Moonlight](https://github.com/moonlight-stream/moonlight-qt) : enables high-performance game streaming from a NVIDIA GPU-equipped PC to your Mac over the local network.
+- [XBPlay](https://www.studio08.net/) is a third-party app allowing to remote play your Xbox One or Series X/S console as well as xCloud titles
 
 ## <a id="local-area-streaming"></a>Local Area Streaming
 
@@ -171,6 +172,7 @@ There are also local streaming solutions allowing you to play on your Mac a game
 - [Steam Link](https://apps.apple.com/us/app/steam-link/id1246969117) (Mac App Store link) : a selection of Steam games can be run on your PC and played on your Mac. You can also play online with friends with games they own and run on their PC.
 - [PS Remote](https://www.playstation.com/en-us/support/games/playstation-remote-play-on-pc-and-mac/): allows streaming games from your PS5 to your Mac
 - [Moonlight](https://github.com/moonlight-stream/moonlight-qt): allows low-latency streaming from a NVIDIA GPU-powered PC to your Mac over your local network.
+- [XBPlay](https://www.studio08.net/) is a third-party app allowing to remote play your Xbox One or Series X/S console as well as xCloud titles
 
 ## <a id="game-engine-ports-hacks-and-patches"></a>Game Engine Ports, Hacks, and Patches
 
