@@ -123,7 +123,7 @@ These games can be run either through emulation or virtualization depending on t
 
 ### <a id="nintendo-consoles"></a>Nintendo Consoles
 
-- [Ryujinx](https://github.com/Ryubing/Ryujinx/releases): Switch
+- [Ryujinx](https://git.ryujinx.app/ryubing/ryujinx/-/releases): Switch
 - [Cemu](https://cemu.info/): Wii U
 - [Dolphin](https://www.dolphin-emu.org/): GameCube & Wii
 - [Citra](https://citra-emulator.com/download) Nintendo 3DS
