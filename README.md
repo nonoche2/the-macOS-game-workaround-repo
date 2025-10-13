@@ -59,8 +59,7 @@ For 32 bits games that won't work with PlayCover, there is an emulator for the e
 These apps will translate Windows API calls to macOS API calls on the fly. While this solution doesn't make every Windows game work flawlessly (most notably, games with anti-cheat protection won't run), it's usually the best option to try first. These are all derived from Wine, and do not run Windows itself. There are several interfaces to translate various versions of [DirectX](https://en.wikipedia.org/wiki/DirectX) (Windows' graphical API) to [Metal](https://en.wikipedia.org/wiki/Metal_(API)) (macOS' graphical API), such as [DXVK](https://github.com/Gcenx/DXVK-macOS) (which translates DirectX 10/11 to Vulkan, which in turn is translated to Metal with [MoltenVK](https://github.com/KhronosGroup/MoltenVK)), [WineD3D](https://fdossena.com/?p=wined3d/index.frag) (DirectX 1-11 to OpenGL), or [DXMT](https://github.com/3Shain/dxmt) (DirectX 11 to Metal). In 2023, Apple released [Game Porting Toolkit](https://developer.apple.com/games/game-porting-toolkit/), which includes D3DMetal, an interface for Wine and its derivatives that translates DirectX 12 to Metal, bringing improved speed and compatibility to software layer translation.
 
 - [CodeWeavers CrossOver](https://www.codeweavers.com/crossover/) (paid)
-- [Whisky](https://getwhisky.app/) (free and open source)
-- [Kegworks](https://github.com/Kegworks-App/Kegworks) (successor of Wineskin, turns Windows games into macOS apps, free and open source)
+- [Sikarugir](https://github.com/Sikarugir-App/Sikarugir) (successor of Wineskin and Kegworks, turns Windows games into macOS apps, free and open source)
 - [Porting Kit](https://www.portingkit.com/) (turns Windows games into macOS apps, free)
 - [Wine](https://www.winehq.org/) (command-line interface only, free and open source)
 - [ChooChoo Loader](https://github.com/wowitsjack/choochoo-loader/)
@@ -73,11 +72,10 @@ Note that CrossOver usually offers the best compatibility and most up-to-date ve
 
 If you want to know if a specific game runs, there are compatibility lists:
 - [for CrossOver](https://www.codeweavers.com/crossover/#compatibility)
-- [for Whisky](https://docs.getwhisky.app/game-support/index.html)
 - [for Porting Kit](https://www.portingkit.com/games)
 
 Sometimes, the Windows version of specific store launchers (GOG Galaxy, Epic Games Launcher, Amazon Games) can get updates which breaks support with the above software translation layers. A workaround is to use [Heroic Games Launcher](https://heroicgameslauncher.com/), a native launcher for Windows and Mac games for these stores. There is also a Mac-exclusive app called [Mythic](https://getmythic.app/), which so far only supports the Epic Games Store and only runs Windows games with its own embedded version of Wine, while Heroic also allows to run games with external versions of Wine such as CrossOver.
-Finally, [Winetricks](https://github.com/Winetricks/winetricks) is a script (embedded in CrossOver, Heroic and Whisky) which allows to install necessary dependencies (such as Microsoft DLLs and fonts), tweak settings and workarounds to make games work with Wine and its derivatives.
+Finally, [Winetricks](https://github.com/Winetricks/winetricks) is a script (embedded in CrossOver and Heroic) which allows to install necessary dependencies (such as Microsoft DLLs and fonts), tweak settings and workarounds to make games work with Wine and its derivatives.
 
 ### <a id="avx-f16c"></a>Handling AVX, AVX2, FMA and F16C
 Some Windows games will sometimes require specific extentions of the Intel processors to run, such as AVX, AVX 2, FMA and F16C. The 3 first ones are handled by Rosetta 2 in macOS Sequoia, but you have to add ROSETTA_ADVERTISE_AVX=1 in the launch parameters of your game (in Steam, select your game properties, and paste it in the launch options field, at the bottom of the General tab). Note that as of CrossOver 25, this isn't necessary anymore as it handles it automatically. Apple added support for F16C instructions to Rosetta 2 as of macOS 15.4. Users of previous versions of macOS can apply individual patches on specific games to work around the issue:
