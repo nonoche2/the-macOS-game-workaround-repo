@@ -131,6 +131,7 @@ These games can be run either through emulation or virtualization depending on t
 This is technically virtualization and not emulation since Android runs on Arm processors just like Apple Silicon-based Macs.
 
 - [Bluestacks Air](https://www.bluestacks.com/mac) (free)
+- [NoxPlayer](https://www.bignox.com/) (free with ads/subscription)
 - [MumuPlayer](https://www.mumuplayer.com/mac/) (paid)
 
 ### <a id="ms-dos-games"></a>MS-DOS Games
