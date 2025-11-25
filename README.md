@@ -179,7 +179,7 @@ There are also local streaming solutions allowing you to play on your Mac a game
 
 It is possible to make a selection of Windows and Mac 32-bit games made with Unity or Adobe Air run on recent Macs, on occasion even as Universal Binaries.
 
-- [Adobe Air games](https://pluskz.blogspot.com/2023/04/adobe-air-32-to-64.html)
+- [Adobe Air games](https://m0rekz.github.io/blogspot/air-32-to-64.html)
 - [Unity games](https://github.com/boggydigital/mac-gaming-guides/blob/main/common/unity-porting.md)
 
 ### <a id="RPG-maker-games"></a>RPG Maker games:
