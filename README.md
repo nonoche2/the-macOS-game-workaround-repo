@@ -35,11 +35,11 @@ A centralized list of every known way to make games run on macOS
 ## <a id="native-mac-games"></a>Native Mac Games
 
 Native Mac games and ports are, most of the time, the best way to enjoy a game on your Mac. They are compiled with MacOS in-mind and the developer presumably offers support for running them on MacOS. There are a few different places to find these games:
-- Mac App Store: Apple's main app store which has some exclusive Mac games. Some are only available with an Apple Arcade subscription. The Mac App Store sometimes offers Universal Purchase, which means you can play the game on every supported Apple platform for a single fee.
+- Mac App Store: Apple's main app store which has some exclusive Mac games. Some are only available with an Apple Arcade subscription. The Mac App Store sometimes offers Universal Purchase, which means you can play the game on every supported Apple platform for a single fee
 - [GOG](https://www.gog.com/): Unlike the other stores, GOG provides games without DRM
 - [Epic Games Store](https://store.epicgames.com/): Notable for offering free games each Thursday, although Mac games are quite rare (many games that offer a Mac version are only available for Windows on the Epic Games Store)
 - [Steam](https://store.steampowered.com/): The store with the largest game selection by far
-- [MacGameStore](https://www.macgamestore.com/): More centered around casual games; it has been a staple of Mac gaming for decades.
+- [MacGameStore](https://www.macgamestore.com/): More centered around casual games; it has been a staple of Mac gaming for decades
 
 > [!TIP]
 > When you buy a game on GOG, the Epic Games Store or Steam, you also get a license for the Windows version, and Linux version when available.
@@ -74,16 +74,20 @@ Additionally, Intel-based Macs can dual-boot on [Batocera](https://batocera.org/
 
 For those who want to run Windows games (with no native port/iOS version) on their Apple-silicon hardware (and not through a cloud provider), this is likely the best option. Modern windows games (from this century) are going to be x86, Windows, likely [DirectX](https://en.wikipedia.org/wiki/DirectX)-based titles. This means that there are multiple translation layers necessary to play on an ARM (Apple Silicon), MacOS, [Metal](https://en.wikipedia.org/wiki/Metal_(API)) machine:
 - [Apple silicon only] Rosetta 2: This translates x86 into ARM instructions
-- Operating system layer: [Wine](https://www.winehq.org/) translates Windows API instructions into MacOS API instructions on the fly.
+- Operating system layer: [Wine](https://www.winehq.org/) translates Windows API instructions into MacOS API instructions on the fly
 - Graphics layers: : These translate the GPU instructions from DirectX API to Apple's Metal graphics API
    - [D3DMetal](https://developer.apple.com/games/game-porting-toolkit/): DirectX 11/12 to Metal
    - [DXMT](https://github.com/3Shain/dxmt): DirectX 10/11 to Metal
+   - [VKD3D](https://gitlab.winehq.org/wine/vkd3d/-/wikis/home): DirectX 12 to Vulkan and then through [MoltenVK](https://github.com/KhronosGroup/MoltenVK) to Metal
    - [DXVK](https://github.com/Gcenx/DXVK-macOS): DirectX 10/11 to Vulkan and then through [MoltenVK](https://github.com/KhronosGroup/MoltenVK) to Metal
    - [WineD3D](https://fdossena.com/?p=wined3d/index.frag): DirectX 1-11 to OpenGL
 
+> [!NOTE]
+> DXVK used on Mac is a special MacOS version based off an older version of the DXVK used in Linux. Similarly, VKD3D is only available through CrossOver (see below) at the moment because they have ported a version to use with MacOS.
+
 Unless you are keen on building everything from source and integrating the layers yourself, you are best served using one of the following programs that combine them:
 
-- [CodeWeavers CrossOver](https://www.codeweavers.com/crossover/) (paid)[^1]
+- [CodeWeavers CrossOver](https://www.codeweavers.com/crossover/) (paid, see footnote)[^1]
 - [Sikarugir](https://github.com/Sikarugir-App/Sikarugir) (successor of Wineskin and Kegworks, free and open source)
 - [Heroic Games Launcher](https://heroicgameslauncher.com/) (free and open source)
 - [Porting Kit](https://www.portingkit.com/) (free)
@@ -94,7 +98,7 @@ Unless you are keen on building everything from source and integrating the layer
 > [!NOTE]
 > While this solution doesn't make every Windows game work flawlessly (most notably, games with anti-cheat protection won't run), it's usually the best option to try first.
 
-[^1]: CrossOver usually offers the best compatibility and most up-to-date versions of Wine and the various DirectX translation interfaces. Codeweavers is also the biggest contributor to the Wine project, so supporting them helps everyone, especially because almost all the other projects use CrossOver's Wine sources. CrossOver also comes with CrossTies, a list of game-specific fixes and workarounds for games that don't run out of the box through Wine, but starting with CrossOver 25 this will be phased out due to a better general compatibility. A common misconception about CrossOver is that the fee only allows you to use it for a year, whereas in reality you can use it forever, but you only get a year's worth of free updates. [CXPatcher](https://github.com/italomandara/CXPatcher) is a non-official tool that allows updating CrossOver's dependencies, such as updated graphics layers.
+[^1]: CrossOver usually offers the best compatibility and most up-to-date versions of Wine and the various DirectX translation interfaces. **Codeweavers is also the biggest contributor to the Wine project, so supporting them helps everyone, especially because almost all the other projects use CrossOver's Wine sources.** CrossOver also comes with CrossTies, a list of game-specific fixes and workarounds for games that don't run out of the box through Wine, but starting with CrossOver 25 this will be phased out due to a better general compatibility. A common misconception about CrossOver is that the fee only allows you to use it for a year, whereas in reality you can use it forever, but you only get a year's worth of free updates. Historically, they have had a good sale around Cyber Monday. [CXPatcher](https://github.com/italomandara/CXPatcher) is a non-official tool that allows updating CrossOver's dependencies, such as updated graphics layers.
 [^2]: For injecting trainers, cheats, and debuggers, one can use the ChooChoo Loader Engine to act as a pre-loader.
 This ensure all processes are able to see and interact with each other in a Wine gaming enviroment.
 
