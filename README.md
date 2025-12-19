@@ -120,12 +120,16 @@ Some Windows games will sometimes require specific extentions of the Intel proce
 
 ### <a id="virtualization"></a>Virtualization
 
-Virtualization is different from emulation, in that it runs the native code on the host processor, when they share the same instruction set. The processor is shared between the two environments at once. For instance, a Nintendo Switch runs on an ARM processor, and thus can be virtualized on an Apple Silicon-based Mac. While there is an overhead compared to running a game on its original platform since the hardware is shared with macOS, it's generally faster than emulation as it converts one instruction set to the other. Unlike translation layers, these will run and require installing complete operating systems (like Windows or Linux) and are usually more focused on general-purpose computing than gaming.
+Virtualization is different from emulation, in that it runs the native code on the host processor, when they share the same instruction set. The processor is shared between the two environments at once. For instance, a Nintendo Switch runs on an ARM processor, and thus can be virtualized on an Apple Silicon-based Mac. While there is an overhead compared to running a game on its original platform since the hardware is shared with macOS, it's generally faster than emulation as it converts one instruction set to the other. Unlike translation layers, these will run and require installing complete operating systems (like Windows or Linux) and are usually more focused on general-purpose computing than gaming. **In fact, currently none of the following virtualization tools support DirectX 12.**
 
-- [Parallels Desktop](https://www.parallels.com/) (the only Microsoft-sanctioned solution to virtualize Windows for ARM, paid)
+- [Parallels Desktop](https://www.parallels.com/) (the only *Microsoft-sanctioned* solution to virtualize Windows for ARM, paid)
 - [VMWare Fusion](https://blogs.vmware.com/teamfusion/2024/05/fusion-pro-now-available-free-for-personal-use.html) (free for personal use)
 - [Oracle VirtualBox](https://www.virtualbox.org/) (free)
 - [UTM](https://apps.apple.com/us/app/utm-virtual-machines/id1538878817) (free)
+
+
+> [!CAUTION]
+> Limitations should be kept in mind. For example, [UTM does not support any GPU acceleration](https://mac.getutm.app/). Also, while you technically can use some tools to virtualize Windows x86 on Apple Silicon, there will be a huge performance penalty. For this reason, almost all the tools above only support Windows for ARM on Apple Silicon. This means you would need to verify your game will run on that version of the operating system without issue.
 
 ## <a id="games-available-on-other-platforms"></a>Games Available on Other Platforms
 
