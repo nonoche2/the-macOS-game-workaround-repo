@@ -7,10 +7,14 @@ A centralized list of every known way to make games run on macOS
    - [Steam's Handling of 32-bit Mac Games](#steams-handling-of-32-bit-mac-games)
 2. [iOS Versions](#ios-versions)
 3. [Modern Windows Games](#modern-windows-games)
-   - [Dual Booting](#dual-booting)
    - [Translation Layers](#translation-layers)
+      - [Background](#tl-background)
+      - [Tools](#tl-tools)
       - [Handling AVX and F16C](#avx-f16c)
    - [Virtualization](#virtualization)
+   - [Cloud Gaming](#cloud-gaming)
+      - [Local Area Streaming](#local-area-streaming)
+   - [Dual Booting](#dual-booting)
 4. [Games Available on Other Platforms](#games-available-on-other-platforms)
    - [Multiple Platform Emulators](#multiple-platform-emulators)
    - [Sony PlayStation Series](#sony-playstation-series)
@@ -20,9 +24,7 @@ A centralized list of every known way to make games run on macOS
    - [MS-DOS Games](#ms-dos-games)
    - [Windows 95-98](#windows-9598)
    - [MacOS 9](#MacOS-9)
-5. [Cloud Gaming](#cloud-gaming)
-6. [Local Area Streaming](#local-area-streaming)
-7. [Game Engine Ports, Hacks, and Patches](#game-engine-ports-hacks-and-patches)
+5. [Game Engine Ports, Hacks, and Patches](#game-engine-ports-hacks-and-patches)
     - [Unity and Adobe Air Games](#unity-and-adobe-air-games)
     - [RPG Maker games](#RPG-maker-games)
     - [Mac Source Ports](#mac-source-ports)
@@ -30,7 +32,7 @@ A centralized list of every known way to make games run on macOS
     - [Nintendo 64 Recompilations](#nintendo-64-recompilations)
     - [Sonic ports](#sonic-ports)
     - [Individual Mac Ports](#individual-mac-ports)
-8. [Making VR work](#making-vr-work)
+6. [Making VR work](#making-vr-work)
 
 ## <a id="native-mac-games"></a>Native Mac Games
 
@@ -59,18 +61,9 @@ For 32 bits games that won't work with PlayCover, there is an emulator for the e
 
 ## <a id="modern-windows-games"></a>Modern Windows Games
 
-### <a id="dual-booting"></a>Dual Booting
-
-#### Windows (Intel-Only)
-Intel-based Macs can boot Windows like any other PC thanks to [Boot Camp](https://support.apple.com/us-en/guide/bootcamp-control-panel/bcmp29b8ac66/mac). This will run any Windows game.
-
-> [!NOTE]
-> Apple Silicon-based Macs cannot boot Windows, though Apple has said it is open to making Boot Camp available to run Windows for ARM, pending Microsoft's approval.
-
-#### Linux
-Additionally, Intel-based Macs can dual-boot on [Batocera](https://batocera.org/), a Linux distribution centered around launching emulators and ROMs with a dedicated interface, and Apple Silicon based Macs can dual-boot on [Asahi Linux](https://asahilinux.org/), which allows to run Windows games with Proton right from within Steam.
-
 ### <a id="translation-layers"></a>Translation Layers
+
+#### <a id="tl-background"></a>Background
 
 For those who want to run Windows games (with no native port/iOS version) on their Apple-silicon hardware (and not through a cloud provider), this is likely the best option. Modern windows games (from this century) are going to be x86, Windows, likely [DirectX](https://en.wikipedia.org/wiki/DirectX)-based titles. This means that there are multiple translation layers necessary to play on an ARM (Apple Silicon), macOS, [Metal](https://en.wikipedia.org/wiki/Metal_(API)) machine:
 - [Apple silicon only] Rosetta 2: This translates x86 into ARM instructions
@@ -84,6 +77,8 @@ For those who want to run Windows games (with no native port/iOS version) on the
 
 > [!NOTE]
 > DXVK used on Mac is a special macOS version based off an older version of the DXVK used in Linux. Similarly, VKD3D is only available through CrossOver (see below) at the moment because they have ported a version to use with macOS.
+
+#### <a id="tl-tools"></a>Tools
 
 Unless you are keen on building everything from source and integrating the layers yourself, you are best served using one of the following programs that combine them:
 
@@ -131,6 +126,39 @@ Virtualization is different from emulation, in that it runs the native code on t
 > [!CAUTION]
 > Limitations should be kept in mind. For example, [UTM does not support any GPU acceleration](https://mac.getutm.app/). Also, while you technically can use some tools to virtualize Windows x86 on Apple Silicon, there will be a huge performance penalty. For this reason, almost all the tools above only support Windows for ARM on Apple Silicon. This means you would need to verify your game will run on that version of the operating system without issue.
 
+## <a id="cloud-gaming"></a>Cloud Gaming
+
+Cloud gaming runs games on a remote machine and streams the video output to your Mac in real-time, while your Mac just displays the video stream and sends controller inputs to the server. It requires a good internet connection, but it can sometimes be the only solution for specific games. Note that most of these only support a limited selection of games and require monthly payments.
+
+- [NVIDIA GeForce Now](https://www.nvidia.com/en-us/geforce-now/) (If you're having stuttering issues over WiFi, [here's a fix](https://www.reddit.com/r/GeForceNOW/comments/195l8ff/stuttering_issues_with_geforce_now_on_macos_over/))
+- [Xbox Cloud Gaming](https://www.xbox.com/en-US/cloud-gaming)
+- [Amazon Luna](https://luna.amazon.com) (works only on Google Chrome, free weekly games with Amazon Prime)
+- [Boosteroid](https://boosteroid.com/)
+- [Shadow](https://shadow.tech/)
+- [AntStream](https://www.antstream.com) (retro games)
+
+### <a id="local-area-streaming"></a>Local Area Streaming
+
+If you have a another gaming machine, there are also local streaming solutions allowing you to play a streamed game, running on your (or a friend's) gaming machine, on your Mac:
+
+- [Steam Link](https://apps.apple.com/us/app/steam-link/id1246969117) (Mac App Store link) : a selection of Steam games can be run on your PC and played on your Mac. You can also play games friends own, running on their PC
+- [PS Remote](https://www.playstation.com/en-us/support/games/playstation-remote-play-on-pc-and-mac/): allows streaming games from your PS5 to your Mac
+- [Moonlight](https://github.com/moonlight-stream/moonlight-qt): allows low-latency streaming from a NVIDIA GPU-powered PC to your Mac over your local network
+- [Greenlight](https://github.com/unknownskl/greenlight): 3rd-party app that allows streaming from your Xbox One or Series X/S console (using [Remote Play](https://www.xbox.com/en-US/consoles/remote-play)) as well as xCloud titles to your Mac
+
+### <a id="dual-booting"></a>Dual Booting
+
+#### Windows (Intel-Only)
+Intel-based Macs can boot Windows like any other PC thanks to [Boot Camp](https://support.apple.com/us-en/guide/bootcamp-control-panel/bcmp29b8ac66/mac). This will run any Windows game.
+
+> [!NOTE]
+> Apple Silicon-based Macs cannot boot Windows, though Apple has said it is open to making Boot Camp available to run Windows for ARM, pending Microsoft's approval.
+
+#### Linux
+Additionally, Intel-based Macs can dual-boot on [Batocera](https://batocera.org/), a Linux distribution centered around launching emulators and ROMs with a dedicated interface.
+
+Apple Silicon based Macs can dual-boot on [Asahi Linux](https://asahilinux.org/), which allows running Windows games with Proton translation right from within Steam. However, this is essentially using translation layers on a different operating system, and the operating system itself needs to overcome compatability with Mac hardware.
+
 ## <a id="games-available-on-other-platforms"></a>Games Available on Other Platforms
 
 These games can be run either through emulation or virtualization depending on the processor of the platform it runs on. There are countless emulators available for macOS, supporting the most famous to the most obscure platforms, so this list won't be exhaustive and will only feature the most prominent emulators. Some Windows games were also released on these platforms (or inversely, some games first released on older platforms were eventually released on Steam through emulation), which provides an alternative, and sometimes superior, way of playing them on macOS. Some emulators provide improvements to how the original games ran, for instance by increasing their resolution, or even supporting bespoke HD graphical packs, effectively offering a "remastered" experience.
@@ -153,10 +181,14 @@ These games can be run either through emulation or virtualization depending on t
 - [Vita3K](https://vita3k.org) : PS Vita
 - [PPSSPP](https://www.ppsspp.org/) : PSP
 
+If you have a PlayStation and want to stream your games to play on your Mac, look at [Local Area Streaming](#local-area-streaming).
+
 ### <a id="xbox-series"></a>Xbox Series
 
 - [Xemu](https://xemu.app/): Xbox
 - [Xenia](https://xenia.jp/): Xbox 360, the emulator has no Mac port but can be run through Software Translation Layer ([video guide](https://www.youtube.com/watch?v=ELug8rz1rBg))
+
+If you have a Xbox and want to stream your games to play on your Mac, look at [Local Area Streaming](#local-area-streaming).
 
 ### <a id="nintendo-consoles"></a>Nintendo Consoles
 
@@ -189,27 +221,6 @@ These games can be run either through emulation or virtualization depending on t
 ### <a id="MacOS-9"></a>MacOS 9
 Older versions of macOS X once allowed to run apps made for MacOS 9 in a dedicated environment called Classic. You can relive those days with emulators such as [Basilisk II](https://basilisk.cebix.net/), [SheepShaver](http://sheepshaver.cebix.net/) and even the classic black and white Macintosh of yore with [MiniVMac](https://www.gryphel.com/c/minivmac/).
 Edward Mendelson even made a custom distribution of SheepShaver with additional features such as a shared folders and printer support, ready to use, called [Mac OS 9](https://www.mendelson.org/macos9osx.html). (thanks [u/HomeStarRunnerTron](https://www.reddit.com/user/HomeStarRunnerTron/)!)
-
-## <a id="cloud-gaming"></a>Cloud Gaming
-
-Cloud gaming runs games on a remote machine and streams the video output to your Mac in real-time, while your Mac just displays the video stream and sends controller inputs to the server. It requires a good internet connection, but it can sometimes be the only solution for specific games. Note that most of these only support a limited selection of games and require monthly payments.
-
-- [NVidia GeForce Now](https://www.nvidia.com/en-us/geforce-now/). If you're having stuttering issues over WiFi, [here's how to fix it](https://www.reddit.com/r/GeForceNOW/comments/195l8ff/stuttering_issues_with_geforce_now_on_macos_over/?share_id=17Q90d4Szq3qDZnRlkYGN&utm_content=2&utm_medium=ios_app&utm_name=ioscss&utm_source=share&utm_term=1)
-- [Xbox Cloud Gaming](https://www.xbox.com/en-US/cloud-gaming)
-- [Amazon Luna](https://luna.amazon.com) (works in Google Chrome only, free weekly games with Amazon Prime)
-- [Boosteroid](https://boosteroid.com/)
-- [Shadow](https://shadow.tech/)
-- [AntStream](https://www.antstream.com) (retro games)
-- [Steam Link](https://apps.apple.com/us/app/steam-link/id1246969117) (Mac App Store link) : a selection of Steam games can be played online with friends with games they own and run on their PC.
-
-## <a id="local-area-streaming"></a>Local Area Streaming
-
-There are also local streaming solutions allowing you to play on your Mac a game running on another machine you own:
-
-- [Steam Link](https://apps.apple.com/us/app/steam-link/id1246969117) (Mac App Store link) : a selection of Steam games can be run on your PC and played on your Mac. You can also play online with friends with games they own and run on their PC.
-- [PS Remote](https://www.playstation.com/en-us/support/games/playstation-remote-play-on-pc-and-mac/): allows streaming games from your PS5 to your Mac
-- [Moonlight](https://github.com/moonlight-stream/moonlight-qt): allows low-latency streaming from a NVIDIA GPU-powered PC to your Mac over your local network.
-- [XBPlay](https://www.studio08.net/) is a third-party app allowing to remote play your Xbox One or Series X/S console as well as xCloud titles
 
 ## <a id="game-engine-ports-hacks-and-patches"></a>Game Engine Ports, Hacks, and Patches
 
