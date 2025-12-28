@@ -73,11 +73,10 @@ For those who want to run Windows games (with no [native port](#native-mac-games
    - [D3DMetal](https://developer.apple.com/games/game-porting-toolkit/): DirectX 11/12 to Metal
    - [DXMT](https://github.com/3Shain/dxmt): DirectX 10/11 to Metal
    - [VKD3D](https://gitlab.winehq.org/wine/vkd3d/-/wikis/home): DirectX 12 to Vulkan and then through [MoltenVK](https://github.com/KhronosGroup/MoltenVK) to Metal
-   - [DXVK](https://github.com/Gcenx/DXVK-macOS): DirectX 10/11 to Vulkan and then through [MoltenVK](https://github.com/KhronosGroup/MoltenVK) to Metal
+   - [DXVK](https://github.com/Gcenx/DXVK-macOS)[^4]: DirectX 10/11 to Vulkan and then through [MoltenVK](https://github.com/KhronosGroup/MoltenVK) to Metal
    - [WineD3D](https://fdossena.com/?p=wined3d/index.frag): DirectX 1-11 to OpenGL
 
-> [!NOTE]
-> DXVK used on Mac is a special macOS version based off an older version of the DXVK used in Linux. Similarly, VKD3D is only available through CrossOver (see below) at the moment because they have ported a version to use with macOS.
+[^4]: DXVK used on Mac is a special macOS version based off an older version of the DXVK used in Linux.
 
 #### <a id="tl-tools"></a>Tools
 
