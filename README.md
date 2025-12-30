@@ -10,6 +10,7 @@ A centralized list of every known way to make games run on macOS
    - [Translation Layers](#translation-layers)
       - [Background](#tl-background)
       - [Tools](#tl-tools)
+      - [Launchers](#launchers)
       - [Handling AVX and F16C](#avx-f16c)
    - [Virtualization](#virtualization)
    - [Cloud Gaming](#cloud-gaming)
@@ -36,15 +37,15 @@ A centralized list of every known way to make games run on macOS
 
 ## <a id="native-mac-games"></a>Native Mac Games
 
-Native Mac games and ports are, most of the time, the best way to enjoy a game on your Mac. They are compiled with  in-mind and the developer presumably offers support for running them on macOS. There are a few different places to find these games:
-- Mac App Store: Apple's main app store which has some exclusive Mac games. Some are only available with an Apple Arcade subscription. The Mac App Store sometimes offers Universal Purchase, which means you can play the game on every supported Apple platform for a single fee
+Native Mac games and ports are, most of the time, the best way to enjoy a game on your Mac. They are compiled for macOS, and the developer presumably offers support for running them on macOS. There are a few different places to find these games:
+- [Mac App Store](https://apps.apple.com/us/mac/play): Apple's main app store which has some exclusive Mac games. Some are only available with an Apple Arcade subscription. The Mac App Store sometimes offers Universal Purchase, which means you can play the game on every supported Apple platform for a single fee
 - [GOG](https://www.gog.com/): Unlike the other stores, GOG provides games without DRM
 - [Epic Games Store](https://store.epicgames.com/): Notable for offering free games each Thursday, although Mac games are quite rare (many games that offer a Mac version are only available for Windows on the Epic Games Store)
 - [Steam](https://store.steampowered.com/): The store with the largest game selection by far
-- [MacGameStore](https://www.macgamestore.com/): More centered around casual games; it has been a staple of Mac gaming for decades
+- [MacGameStore](https://www.macgamestore.com/): More centered around casual games; a staple of Mac gaming for decades
 
 > [!TIP]
-> When you buy a game on GOG, the Epic Games Store or Steam, you also get a license for the Windows version, and Linux version when available.
+> When you buy a game on GOG, the Epic Games Store, or Steam, you also get a license for the Windows version, and Linux version when available.
 
 ### <a id="steams-handling-of-32-bit-mac-games"></a>Steam's Handling of 32-bit Mac Games
 
@@ -65,24 +66,23 @@ For 32 bits games that won't work with PlayCover, there is an emulator for the e
 
 #### <a id="tl-background"></a>Background
 
-For those who want to run Windows games (with no native port/iOS version) on their Apple-silicon hardware (and not through a cloud provider), this is likely the best option. Modern windows games (from this century) are going to be x86, Windows, likely [DirectX](https://en.wikipedia.org/wiki/DirectX)-based titles. This means that there are multiple translation layers necessary to play on an ARM (Apple Silicon), macOS, [Metal](https://en.wikipedia.org/wiki/Metal_(API)) machine:
-- [Apple silicon only] Rosetta 2: This translates x86 into ARM instructions
+For those who want to run Windows games (with no [native port](#native-mac-games)/[iOS version](#ios-versions)) on their Apple-silicon hardware (and not through a [cloud provider](#cloud-gaming)), this is likely the best option. Modern windows games (from this century) are going to be x86, Windows, likely [DirectX](https://en.wikipedia.org/wiki/DirectX)-based titles. This means multiple translation layers are necessary to play on an ARM (Apple silicon), macOS, [Metal](https://en.wikipedia.org/wiki/Metal_(API)) machine:
+- [Apple silicon only] Rosetta 2: Apple tool that translates x86 into ARM instructions
 - Operating system layer: [Wine](https://www.winehq.org/) translates Windows API instructions into macOS API instructions on the fly
 - Graphics layers: : These translate the GPU instructions from DirectX API to Apple's Metal graphics API
    - [D3DMetal](https://developer.apple.com/games/game-porting-toolkit/): DirectX 11/12 to Metal
    - [DXMT](https://github.com/3Shain/dxmt): DirectX 10/11 to Metal
    - [VKD3D](https://gitlab.winehq.org/wine/vkd3d/-/wikis/home): DirectX 12 to Vulkan and then through [MoltenVK](https://github.com/KhronosGroup/MoltenVK) to Metal
-   - [DXVK](https://github.com/Gcenx/DXVK-macOS): DirectX 10/11 to Vulkan and then through [MoltenVK](https://github.com/KhronosGroup/MoltenVK) to Metal
+   - [DXVK](https://github.com/Gcenx/DXVK-macOS)[^4]: DirectX 10/11 to Vulkan and then through [MoltenVK](https://github.com/KhronosGroup/MoltenVK) to Metal
    - [WineD3D](https://fdossena.com/?p=wined3d/index.frag): DirectX 1-11 to OpenGL
 
-> [!NOTE]
-> DXVK used on Mac is a special macOS version based off an older version of the DXVK used in Linux. Similarly, VKD3D is only available through CrossOver (see below) at the moment because they have ported a version to use with macOS.
+[^4]: DXVK used on Mac is a special macOS version based off an older version of the DXVK used in Linux.
 
 #### <a id="tl-tools"></a>Tools
 
 Unless you are keen on building everything from source and integrating the layers yourself, you are best served using one of the following programs that combine them:
 
-- [CodeWeavers CrossOver](https://www.codeweavers.com/crossover/) (paid, see footnote)[^1]
+- [CrossOver](https://www.codeweavers.com/crossover/) (paid, see footnote)[^1]
 - [Sikarugir](https://github.com/Sikarugir-App/Sikarugir) (successor of Wineskin and Kegworks, free and open source)
 - [Heroic Games Launcher](https://heroicgameslauncher.com/) (free and open source)
 - [Porting Kit](https://www.portingkit.com/) (free)
@@ -90,10 +90,13 @@ Unless you are keen on building everything from source and integrating the layer
 - [Wine](https://www.winehq.org/) (command-line interface only, free and open source)
 - [ChooChoo Loader](https://github.com/wowitsjack/choochoo-loader/)[^2]
 
-> [!NOTE]
-> While this solution doesn't make every Windows game work flawlessly (most notably, games with anti-cheat protection won't run), it's usually the best option to try first.
+[Winetricks](https://github.com/Winetricks/winetricks) is a script (embedded in CrossOver, Sikarugir, and Heroic) which allows installation of necessary dependencies (such as Microsoft DLLs and fonts), tweak settings, and workarounds to make games work with Wine and its derivatives.
 
-[^1]: CrossOver usually offers the best compatibility and most up-to-date versions of Wine and the various DirectX translation interfaces. **Codeweavers is also the biggest contributor to the Wine project, so supporting them helps everyone, especially because almost all the other projects use CrossOver's Wine sources.** CrossOver also comes with CrossTies, a list of game-specific fixes and workarounds for games that don't run out of the box through Wine, but starting with CrossOver 25 this will be phased out due to a better general compatibility. A common misconception about CrossOver is that the fee only allows you to use it for a year, whereas in reality you can use it forever, but you only get a year's worth of free updates. Historically, they have had a good sale around Cyber Monday. [CXPatcher](https://github.com/italomandara/CXPatcher) is a non-official tool that allows updating CrossOver's dependencies, such as updated graphics layers.
+
+> [!NOTE]
+> While not every Windows game will work flawlessly (most notably, games with anti-cheat protection won't run), translation layers are usually the best option to try before virtualization
+
+[^1]: CrossOver usually offers the best compatibility and most up-to-date versions of Wine and the various DirectX translation interfaces. **Codeweavers is also the biggest contributor to the Wine project, so supporting them helps everyone, especially because almost all the other projects use CrossOver's Wine sources.** A common misconception about CrossOver is that the fee only allows you to use it for a year, whereas in reality you can use it forever, but you only get a year's worth of free updates. Historically, they have had a good sale around Cyber Monday. [CXPatcher](https://github.com/italomandara/CXPatcher) is a non-official tool that allows updating CrossOver's dependencies, such as updated graphics layers. CrossOver also comes with CrossTies, a list of game-specific fixes and workarounds for games that don't run out of the box through Wine, but starting with CrossOver 25 this will be phased out due to better general compatibility.
 [^2]: For injecting trainers, cheats, and debuggers, one can use the ChooChoo Loader Engine to act as a pre-loader.
 This ensure all processes are able to see and interact with each other in a Wine gaming enviroment.
 
@@ -103,19 +106,27 @@ If you want to know if a specific game runs, there are compatibility lists:
 - https://www.applegamingwiki.com/wiki/Home
 - https://macgamingdb.app/
 
-Sometimes, the Windows version of specific store launchers (GOG Galaxy, Epic Games Launcher, Amazon Games) can get updates which break support with the above software translation layers. A workaround is to use [Heroic Games Launcher](https://heroicgameslauncher.com/), a native launcher for Windows and Mac games for these stores. There is also a Mac-exclusive app called [Mythic](https://getmythic.app/), which so far only supports the Epic Games Store and only runs Windows games with its own embedded version of Wine, while Heroic also allows to run games with external versions of Wine such as CrossOver.
+#### <a id="launchers"></a>Launchers
+Sometimes, the Windows version of specific store launchers (GOG Galaxy, Epic Games Launcher, Amazon Games) have updates which break support for the above software translation layers. A workaround is to use a 3rd-party launcher that calls the stores' APIs, such as:
+- [Heroic Games Launcher](https://heroicgameslauncher.com/): supports GoG, Epic Games Store, and Amazon Games; can run games with external versions of Wine such as CrossOver
+- [Mythic](https://getmythic.app/): only supports the Epic Games Store and only runs Windows games with its own embedded version of Wine based on deprecated Whisky project
 
-Finally, [Winetricks](https://github.com/Winetricks/winetricks) is a script (embedded in CrossOver, Sikarugir, and Heroic) which allows to install necessary dependencies (such as Microsoft DLLs and fonts), tweak settings and workarounds to make games work with Wine and its derivatives.
+Note there are also other launchers which do not call stores' APIs directly and serve only to consolidate/facilitate game launching, including:
+- [Phoenix](https://www.phoenixlauncher.app/)
+- [Aether](https://github.com/VibeNoobNotFound/Aether)
 
-#### <a id="avx-f16c"></a>Handling AVX, AVX2, FMA and F16C
-Some Windows games will sometimes require specific extentions of the Intel processors to run, such as AVX, AVX 2, FMA and F16C. The 3 first ones are handled by Rosetta 2 in macOS Sequoia, but you have to add ROSETTA_ADVERTISE_AVX=1 in the launch parameters of your game (in Steam, select your game properties, and paste it in the launch options field, at the bottom of the General tab). Note that as of CrossOver 25, this isn't necessary anymore as it handles it automatically. Apple added support for F16C instructions to Rosetta 2 as of macOS 15.4. Users of previous versions of macOS can apply individual patches on specific games to work around the issue:
-- [patch for God of War: Ragnarok](https://www.youtube.com/watch?v=eNKtbUVEgSU)
-- [patch for Ghost of Tsushima](https://www.youtube.com/watch?v=zwJwlRHW3k4)
-- [patch for Horizon Forbidden West](https://community.pcgamingwiki.com/files/file/3114-horizon-forbidden-west-f16c-инструкции-исправить/)
+#### <a id="avx-f16c"></a>Handling AVX, AVX2, FMA, F16C, and BMI
+Some Windows games will sometimes require specific CPU instruction set extensions found on Intel/AMD x86 processors to run, such as AVX, AVX2, FMA, F16C, or BMI. As of macOS Sequoia: AVX, AVX2, and FMA are handled by Rosetta 2. Apple added F16C and BMI support to Rosetta 2 in macOS 15.4; previous versions of macOS require individual patches for specific games as a workaround (see footnote)[^3]
+
+[^3]: [patch for God of War: Ragnarok](https://www.youtube.com/watch?v=eNKtbUVEgSU)  
+[patch for Ghost of Tsushima](https://www.youtube.com/watch?v=zwJwlRHW3k4)  
+[patch for Horizon Forbidden West](https://community.pcgamingwiki.com/files/file/3114-horizon-forbidden-west-f16c-инструкции-исправить/)
+
+To advertise support for these instructions, `ROSETTA_ADVERTISE_AVX=1` must be added in the launch parameters of your game (for Steam: select your game properties and paste it in the launch options field at the bottom of the General tab). Note that as of CrossOver 25, this isn't necessary anymore as it is handled automatically. Some other tools also handle it automatically now.
 
 ### <a id="virtualization"></a>Virtualization
 
-Virtualization is different from emulation, in that it runs the native code on the host processor, when they share the same instruction set. The processor is shared between the two environments at once. For instance, a Nintendo Switch runs on an ARM processor, and thus can be virtualized on an Apple Silicon-based Mac. While there is an overhead compared to running a game on its original platform since the hardware is shared with macOS, it's generally faster than emulation as it converts one instruction set to the other. Unlike translation layers, these will run and require installing complete operating systems (like Windows or Linux) and are usually more focused on general-purpose computing than gaming. **In fact, currently none of the following virtualization tools support DirectX 12.**
+Virtualization aims to setup a guest operating system, sharing resources with the macOS host. It differs from emulation because it attempts to run the operating system natively and share the host processor between the host and guest. For instance, a Nintendo Switch runs on an ARM processor, and thus can be virtualized on an Apple Silicon-based Mac. While there is an overhead compared to running a game on its original platform since the hardware is shared with macOS, it's generally faster than emulation, which converts one instruction set to another. Unlike translation layers, virtualization requires installing complete operating systems (like Windows or Linux) and is therefore usually more focused on general-purpose computing than gaming. **In fact, currently none of the following virtualization tools support DirectX 12.**
 
 - [Parallels Desktop](https://www.parallels.com/) (the only *Microsoft-sanctioned* solution to virtualize Windows for ARM, paid)
 - [VMWare Fusion](https://blogs.vmware.com/teamfusion/2024/05/fusion-pro-now-available-free-for-personal-use.html) (free for personal use)
@@ -124,7 +135,7 @@ Virtualization is different from emulation, in that it runs the native code on t
 
 
 > [!CAUTION]
-> Limitations should be kept in mind. For example, [UTM does not support any GPU acceleration](https://mac.getutm.app/). Also, while you technically can use some tools to virtualize Windows x86 on Apple Silicon, there will be a huge performance penalty. For this reason, almost all the tools above only support Windows for ARM on Apple Silicon. This means you would need to verify your game will run on that version of the operating system without issue.
+> Limitations should be kept in mind. For example, [UTM does not support any GPU acceleration](https://mac.getutm.app/). Also, while you technically can use some virtualization tools to emulate Windows x86 on Apple Silicon, there will be a huge performance penalty. For this reason, almost all the tools above only support Windows for ARM on Apple Silicon. This means you would need to verify your game will run on that version of the operating system without issue.
 
 ## <a id="cloud-gaming"></a>Cloud Gaming
 
@@ -139,7 +150,7 @@ Cloud gaming runs games on a remote machine and streams the video output to your
 
 ### <a id="local-area-streaming"></a>Local Area Streaming
 
-If you have a another gaming machine, there are also local streaming solutions allowing you to play a streamed game, running on your (or a friend's) gaming machine, on your Mac:
+If you have another gaming machine, there are also local streaming solutions which allow you to play a streamed game, running on your (or a friend's) gaming machine, on your Mac:
 
 - [Steam Link](https://apps.apple.com/us/app/steam-link/id1246969117) (Mac App Store link) : a selection of Steam games can be run on your PC and played on your Mac. You can also play games friends own, running on their PC
 - [PS Remote](https://www.playstation.com/en-us/support/games/playstation-remote-play-on-pc-and-mac/): allows streaming games from your PS5 to your Mac
