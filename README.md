@@ -33,7 +33,8 @@ A centralized list of every known way to make games run on macOS
     - [Nintendo 64 Recompilations](#nintendo-64-recompilations)
     - [Sonic ports](#sonic-ports)
     - [Individual Mac Ports](#individual-mac-ports)
-6. [Making VR work](#making-vr-work)
+6. [Mod Managers][#mod-managers]
+7. [Making VR work](#making-vr-work)
 
 ## <a id="native-mac-games"></a>Native Mac Games
 
@@ -287,6 +288,10 @@ The first four are decompilations of [Christian Whitehead](https://en.wikipedia.
 - [Badland: Game of The year edition](https://www.reddit.com/r/macgaming/comments/1j1daxy/a_fix_for_badland_game_of_the_year_edition/): fix for the crash at launch but the game still won't make any sound
 - [FnMacAssistant](https://github.com/isacucho/FnMacAssistant): a bespoke utility to download and patch the iOS/iPadOS version of Fortnite and make it run on Apple Silicon-based Macs
 - [AppleBlox](https://appleblox.com/): a Roblox launcher for macOS
+
+## <a id="mod-managers"></a>Mod managers
+- [MelonLoader][https://github.com/LavaGang/MelonLoader/]
+- [R2ModMac][https://github.com/Zard-Studios/r2modmac]
 
 ## <a id="making-vr-work"></a>Making SteamVR work
 People have made some progress with running tethered VR games:
