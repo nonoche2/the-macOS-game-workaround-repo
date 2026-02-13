@@ -234,6 +234,10 @@ If you have a Xbox and want to stream your games to play on your Mac, look at [L
 Older versions of macOS X once allowed to run apps made for MacOS 9 in a dedicated environment called Classic. You can relive those days with emulators such as [Basilisk II](https://basilisk.cebix.net/), [SheepShaver](http://sheepshaver.cebix.net/) and even the classic black and white Macintosh of yore with [MiniVMac](https://www.gryphel.com/c/minivmac/).
 Edward Mendelson even made a custom distribution of SheepShaver with additional features such as a shared folders and printer support, ready to use, called [Mac OS 9](https://www.mendelson.org/macos9osx.html). (thanks [u/HomeStarRunnerTron](https://www.reddit.com/user/HomeStarRunnerTron/)!)
 
+Additionally, [Snow](https://snowemu.com/) emulates 680x0-based Macs, from the original Macintosh 128K to the Macintosh IIx, IIcx, and SE/30. [UTM](https://mac.getutm.app/) can also run Intel-based Mac apps, including 32 bits ones, on Apple Silicon, but it's probably too slow to run most games decently enough.
+
+To emulate PowerPC-based Macs, you can use [UTM](https://mac.getutm.app/) (to run MacOS X 10.0 to 10.5), [SheepShaver](http://sheepshaver.cebix.net/) (for up to MacOS 9.0.4), or [InfiniteMac.org](InfiniteMac.org) to run Mac emulators directly in your web browser.
+
 ## <a id="game-engine-ports-hacks-and-patches"></a>Game Engine Ports, Hacks, and Patches
 
 ### <a id="unity-and-adobe-air-games"></a>Unity and Adobe Air Games
