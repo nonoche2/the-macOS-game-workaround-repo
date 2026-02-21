@@ -217,6 +217,7 @@ If you have a Xbox and want to stream your games to play on your Mac, look at [L
 - [Bluestacks Air](https://www.bluestacks.com/mac) (free)
 - [NoxPlayer](https://www.bignox.com/) (Doesn't work on Apple Silicon, free with ads/subscription)
 - [MumuPlayer](https://www.mumuplayer.com/mac/) (paid)
+- [Alloy](https://alloystation.com/) (Apple Silicon only, paid)
 
 ### <a id="ms-dos-games"></a>MS-DOS Games
 
