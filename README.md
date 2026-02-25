@@ -270,6 +270,7 @@ These tools will provide native recompilations, with many quality-of-life improv
 - [Super Mario 64](https://mameonmacs.blogspot.com/2024/11/super-mario-64-hacks-on-apple-silicon.html)
 - [Perfect Dark](https://github.com/shinra-electric/Perfect-Dark-Build-Script)
 - [Banjo Kazooie](https://github.com/BanjoRecomp/BanjoRecomp/releases/latest)
+- [Mario Kart 64](https://github.com/sonicdcer/MarioKart64Recomp/releases/latest)
 
 ### <a id="sonic-ports"></a>Sonic Ports
 
