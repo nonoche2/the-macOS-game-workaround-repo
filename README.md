@@ -198,7 +198,7 @@ If you have a PlayStation and want to stream your games to play on your Mac, loo
 ### <a id="xbox-series"></a>Xbox Series
 
 - [Xemu](https://xemu.app/): Xbox
-- [Xenia](https://xenia.jp/): Xbox 360, the emulator has no Mac port but can be run through Software Translation Layer ([video guide](https://www.youtube.com/watch?v=ELug8rz1rBg))
+- [XeniOS](https://xenios.jp/download/mac): Xbox 360
 
 If you have a Xbox and want to stream your games to play on your Mac, look at [Local Area Streaming](#local-area-streaming).
 
