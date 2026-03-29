@@ -4,7 +4,7 @@ A centralized list of every known way to make games run on macOS
 ## Table of Contents
 
 1. [Native Mac Games](#native-mac-games)
-   - [Steam's Handling of 32-bit Mac Games](#steams-handling-of-32-bit-mac-games)
+   - [32-bit Mac Games](#32-bit-mac-games)
 2. [iOS Versions](#ios-versions)
 3. [Modern Windows Games](#modern-windows-games)
    - [Translation Layers](#translation-layers)
@@ -48,13 +48,13 @@ Native Mac games and ports are, most of the time, the best way to enjoy a game o
 > [!TIP]
 > When you buy a game on GOG, the Epic Games Store, or Steam, you also get a license for the Windows version, and Linux version when available.
 
-### <a id="steams-handling-of-32-bit-mac-games"></a>Steam's Handling of 32-bit Mac Games
+### <a id="32-bit-mac-games"></a>32-bit Mac Games
 
-When Apple decided to drop 32-bit support with macOS Catalina, many Mac games became non-functional overnight. The games could still be played provided you didn't update macOS but since Steam eventually also dropped support for 32-bit on macOS, there is no way to run these games natively on macOS anymore.
+When Apple decided to drop 32-bit support with macOS Catalina, many Mac games became non-functional overnight. The games could still be played provided you didn't update macOS but since Steam eventually also dropped support for 32-bit on macOS, there is no way to run these games natively on macOS anymore, at least not directly, but the warkarounds listed here can apply in some cases.
 
-Valve decided to make developers manually specify if their game was 64-bit in the SteamWorks database, making games 32-bit by default. Games assumed to be 32-bit are signaled as incompatible with macOS Catalina and newer on the game's page. They are also signaled in the game library by an icon (🚫) next to their name and a message on their description page. These games are filtered out when clicking on the Apple logo to filter the Mac-only games. Unfortunately, many 64-bit games are incorrectly assumed to be 32-bit. Some of them are listed [here](https://docs.google.com/spreadsheets/d/17DkOsI9AwAT4dzPkLmunYJJmUpf1FuWR62Q1vAEfJzM/edit?usp=sharing).
-
-Additionally, games that were delisted from the store are all reported as 64-bit in the library, whether the database says so or not.
+> [!NOTE]
+> Valve decided to make developers manually specify if their game was 64-bit in the SteamWorks database, making games 32-bit by default. Games assumed to be 32-bit are signaled as incompatible with macOS Catalina and newer on the game's page. They are also signaled in the game library by an icon (🚫) next to their name and a message on their description page. These games are filtered out when clicking on the Apple logo to filter the Mac-only games. Unfortunately, many 64-bit games are incorrectly assumed to be 32-bit. Some of them are listed [here](https://docs.google.com/spreadsheets/d/17DkOsI9AwAT4dzPkLmunYJJmUpf1FuWR62Q1vAEfJzM/edit?usp=sharing).
+> Additionally, games that were delisted from the store are all reported as 64-bit in the library, whether the database says so or not.
 
 ## <a id="ios-versions"></a>iOS Versions
 
