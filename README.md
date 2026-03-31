@@ -209,7 +209,7 @@ If you have a Xbox and want to stream your games to play on your Mac, look at [L
 - [Ryujinx](https://git.ryujinx.app/ryubing/ryujinx/-/releases): Switch
 - [Cemu](https://cemu.info/): Wii U
 - [Dolphin](https://www.dolphin-emu.org/): GameCube & Wii
-- [Citra](https://citra-emulator.com/download) Nintendo 3DS
+- [Azahar](https://azahar-emu.org/) Nintendo 3DS
 
 ### <a id="android"></a>Android
 
@@ -297,6 +297,8 @@ The first four are decompilations of [Christian Whitehead](https://en.wikipedia.
 - [Badland: Game of The year edition](https://www.reddit.com/r/macgaming/comments/1j1daxy/a_fix_for_badland_game_of_the_year_edition/): fix for the crash at launch but the game still won't make any sound
 - [FnMacAssistant](https://github.com/isacucho/FnMacAssistant): a bespoke utility to download and patch the iOS/iPadOS version of Fortnite and make it run on Apple Silicon-based Macs
 - [AppleBlox](https://appleblox.com/): a Roblox launcher for macOS
+- [Frown](https://github.com/coatlessali/Frown/releases/tag/2025.04.15): Ultrakill
+- [Doukutsu-RS](https://doukutsu.rs/): Cave Story+
 
 ## <a id="mod-managers"></a>Mod managers
 - [MelonLoader](https://github.com/LavaGang/MelonLoader/)
