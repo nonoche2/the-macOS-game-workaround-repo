@@ -299,6 +299,7 @@ The first four are decompilations of [Christian Whitehead](https://en.wikipedia.
 - [AppleBlox](https://appleblox.com/): a Roblox launcher for macOS
 - [Frown](https://github.com/coatlessali/Frown/releases/tag/2025.04.15): Ultrakill
 - [Doukutsu-RS](https://doukutsu.rs/): Cave Story+
+- [OpenGOAL](https://opengoal.dev/): port of Jak and Daxter 1, 2 and 3
 
 ## <a id="mod-managers"></a>Mod managers
 - [MelonLoader](https://github.com/LavaGang/MelonLoader/)
