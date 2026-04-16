@@ -45,12 +45,17 @@ Native Mac games and ports are, most of the time, the best way to enjoy a game o
 - [Steam](https://store.steampowered.com/): The store with the largest game selection by far
 - [MacGameStore](https://www.macgamestore.com/): More centered around casual games; a staple of Mac gaming for decades
 
-On Steam, GOG and the Epic Games Store, some games are only available for Windows and not for Mac, so you must make sure a game supports macOS before purchasing it. Steam will display an Apple logo atop the "add to cart" button if the game runs on macOS.<img width="219" height="98" alt="capture of the 'add to cart' button on Steam showing the Apple logo" src="https://github.com/user-attachments/assets/99e7a984-70f5-49bd-9288-f245342e9489" />
+On Steam, GOG and the Epic Games Store, some games are only available for Windows and not for Mac, so you must make sure a game supports macOS before purchasing it. Steam will display an Apple logo atop the "add to cart" button if the game runs on macOS.
+
+<img width="219" height="98" alt="capture of the 'add to cart' button on Steam showing the Apple logo" src="https://github.com/user-attachments/assets/99e7a984-70f5-49bd-9288-f245342e9489" />
 
 GOG will show an Apple logo right under the game's title on the product page
+
 <img width="565" height="138" alt="Capture of the title of Cyberpunk 2087 on GOG.com displaying the Apple logo under it" src="https://github.com/user-attachments/assets/c6c8b816-be42-4749-af39-bc95ae6ed5d6" />
 
-The Epic Games Store will mention "Mac" in the supported platforms at the bottom of the right pane on a product page<img width="296" height="489" alt="Capture of the Epic Games Store showing 'Mac' in the platforms section" src="https://github.com/user-attachments/assets/512e0781-75f3-40c2-9c7f-5ba936abea58" />
+The Epic Games Store will mention "Mac" in the supported platforms at the bottom of the right pane on a product page
+
+<img width="296" height="489" alt="Capture of the Epic Games Store showing 'Mac' in the platforms section" src="https://github.com/user-attachments/assets/512e0781-75f3-40c2-9c7f-5ba936abea58" />
 
 
 
