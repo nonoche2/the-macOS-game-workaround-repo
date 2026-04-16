@@ -60,7 +60,7 @@ The Epic Games Store will mention "Mac" in the supported platforms at the bottom
 
 
 > [!TIP]
-> When you buy a game on GOG, the Epic Games Store, or Steam, you also get a license for the Windows version, and Linux version when available.
+> When you buy a game on GOG, the Epic Games Store, or Steam, you also get a license for the Windows version, and Linux version when available. If you have any issue with your purchase, for Steam and the Epic Games Store, you can get refunded automatically if your purchase was less tha 14 days before asking for a refund, of if you played it for less than 2 hours, whichever comes first. On GOG you can ask for a refund up to 30 days after purchase.
 
 ### <a id="32-bit-mac-games"></a>32-bit Mac Games
 
