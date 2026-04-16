@@ -187,7 +187,7 @@ Intel-based Macs can boot Windows like any other PC thanks to [Boot Camp](https:
 #### Linux
 Additionally, Intel-based Macs can dual-boot on [Batocera](https://batocera.org/), a Linux distribution centered around launching emulators and ROMs with a dedicated interface.
 
-M1 & M2 Macs can dual-boot on [Asahi Linux](https://asahilinux.org/), which allows running Windows games with Proton translation right from within Steam. However, this is essentially using translation layers on a different operating system, and the operating system itself needs to overcome compatability with Mac hardware.
+M1 & M2 Macs can dual-boot on [Asahi Linux](https://asahilinux.org/), which allows running Windows games with Proton translation right from within Steam. However, this is essentially using translation layers on a different operating system, and the operating system itself needs to overcome compatibility with Mac hardware.
 
 
 
