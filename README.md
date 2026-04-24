@@ -319,7 +319,6 @@ To download the latest Apple Silicon binary of Sonic Unleashed:
 - [Anime games](https://github.com/yaagl/yet-another-anime-game-launcher) (GI/HSR/ZZZ)
 - [Final Fantasy XIV](https://www.xivmac.com/)
 - [Badland: Game of The year edition](https://www.reddit.com/r/macgaming/comments/1j1daxy/a_fix_for_badland_game_of_the_year_edition/): fix for the crash at launch but the game still won't make any sound
-- [FnMacAssistant](https://github.com/isacucho/FnMacAssistant): a bespoke utility to download and patch the iOS/iPadOS version of Fortnite and make it run on Apple Silicon-based Macs
 - [AppleBlox](https://appleblox.com/): a Roblox launcher for macOS
 - [Frown](https://github.com/coatlessali/Frown/releases/tag/2025.04.15): Ultrakill
 - [Doukutsu-RS](https://doukutsu.rs/): Cave Story+
