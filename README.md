@@ -323,6 +323,7 @@ To download the latest Apple Silicon binary of Sonic Unleashed:
 - [Frown](https://github.com/coatlessali/Frown/releases/tag/2025.04.15): Ultrakill
 - [Doukutsu-RS](https://doukutsu.rs/): Cave Story+
 - [OpenGOAL](https://opengoal.dev/): port of Jak and Daxter 1, 2 and 3
+- [Road to Vostok](https://github.com/Ozicom23/road-to-vostok-mac-build-script) script that converts the Windows game into a native Apple Silicon port
 
 ## <a id="mod-managers"></a>Mod managers
 - [MelonLoader](https://github.com/LavaGang/MelonLoader/)
