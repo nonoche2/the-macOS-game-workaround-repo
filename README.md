@@ -171,7 +171,7 @@ One option which is too often overlooked or unknown is Steam's [Remote Play Toge
 
 If you have another gaming machine, there are also local streaming solutions which allow you to play a streamed game, running on your (or a friend's) gaming machine, on your Mac:
 
-- [Steam Link](https://apps.apple.com/us/app/steam-link/id1246969117) (Mac App Store link) : a selection of Steam games can be run on your PC and played on your Mac. You can also play games friends own, running on their PC
+- [Steam Link](https://apps.apple.com/us/app/steam-link/id1246969117) (Mac App Store link) : a selection of Steam games can be run on your PC and played on your Mac. You can even stream Windows games running on your Mac through CrossOver ([see here](https://www.reddit.com/r/macgaming/comments/1szo2el/using_steam_link_to_play_crossover_games_it_works/).
 - [PS Remote](https://www.playstation.com/en-us/support/games/playstation-remote-play-on-pc-and-mac/): allows streaming games from your PS5 to your Mac
 - [Moonlight](https://github.com/moonlight-stream/moonlight-qt): allows low-latency streaming from a NVIDIA GPU-powered PC to your Mac over your local network
 - [Greenlight](https://github.com/unknownskl/greenlight): 3rd-party app that allows streaming from your Xbox One or Series X/S console (using [Remote Play](https://www.xbox.com/en-US/consoles/remote-play)) as well as xCloud titles to your Mac
