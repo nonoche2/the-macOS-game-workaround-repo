@@ -289,6 +289,7 @@ Some developers have managed to port some console games to other platforms, incl
 - [The Legend of Zelda: Majora's Mask](https://github.com/HarbourMasters/2ship2harkinian/releases)
 - [The Legend of Zelda: Majora's Mask](https://github.com/Zelda64Recomp/Zelda64Recomp): different static recompilation project from the above
 - [StarFox 64](https://github.com/HarbourMasters/Starship?tab=readme-ov-file)
+- [StarFox 64](https://github.com/sonicdcer/Starfox64Recomp/releases/latest): different static recompilation project from the above
 - [Super Mario 64](https://mameonmacs.blogspot.com/2024/11/super-mario-64-hacks-on-apple-silicon.html)
 - [Perfect Dark](https://github.com/shinra-electric/Perfect-Dark-Build-Script)
 - [Banjo Kazooie](https://github.com/BanjoRecomp/BanjoRecomp/releases/latest)
