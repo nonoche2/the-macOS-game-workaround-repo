@@ -30,7 +30,7 @@ A centralized list of every known way to make games run on macOS
     - [RPG Maker games](#RPG-maker-games)
     - [Mac Source Ports](#mac-source-ports)
     - [ScummVM](#scummvm)
-    - [Nintendo 64 Recompilations](#nintendo-64-recompilations)
+    - [Recompilations](#recompilations)
     - [Sonic ports](#sonic-ports)
     - [Individual Mac Ports](#individual-mac-ports)
 6. [Mod Managers](#mod-managers)
@@ -279,9 +279,11 @@ These are games or game engines which either became open source or were retro-en
 
 [ScummVM](https://www.scummvm.org) is a port of various game engines that supports 381 different games when this guide was published.
 
-### <a id="nintendo-64-recompilations"></a>Nintendo 64 Recompilations
+### <a id="recompilations"></a>Recompilations
 
-These tools will provide native recompilations, with many quality-of-life improvements, of Nintendo 64 games if you provide the original N64 ROM:
+Some developers have managed to port some console games to other platforms, including the Mac, by providing tools that decompile released games and recompile them to the target platform as native applications. These often include faster/smoother execution than on the original hardware, quality of life improvements (support for different screen aspect ratio and resolution, improved graphics, support for mods, etc). For these to be legal, they cannot distribute copyrighted material so you need to provide a dump of the supported games for them to be "transformed" into a native Mac game.
+
+#### Nintendo 64:
 
 - [The Legend of Zelda: Ocarina of Time](https://www.shipofharkinian.com/fr)
 - [The Legend of Zelda: Majora's Mask](https://github.com/HarbourMasters/2ship2harkinian/releases)
@@ -291,6 +293,14 @@ These tools will provide native recompilations, with many quality-of-life improv
 - [Perfect Dark](https://github.com/shinra-electric/Perfect-Dark-Build-Script)
 - [Banjo Kazooie](https://github.com/BanjoRecomp/BanjoRecomp/releases/latest)
 - [Mario Kart 64](https://github.com/sonicdcer/MarioKart64Recomp/releases/latest)
+
+#### Wii/Wii U:
+- [The legend of Zelda: Twilight Princess](https://twilitrealm.dev/)
+
+#### Playstation 2:
+- [Jak and Daxter 1, 2 and 3](https://opengoal.dev/)
+
+
 
 ### <a id="sonic-ports"></a>Sonic Ports
 
@@ -322,7 +332,6 @@ To download the latest Apple Silicon binary of Sonic Unleashed:
 - [AppleBlox](https://appleblox.com/): a Roblox launcher for macOS
 - [Frown](https://github.com/coatlessali/Frown/releases/tag/2025.04.15): Ultrakill
 - [Doukutsu-RS](https://doukutsu.rs/): Cave Story+
-- [OpenGOAL](https://opengoal.dev/): port of Jak and Daxter 1, 2 and 3
 - [Road to Vostok](https://github.com/Ozicom23/road-to-vostok-mac-build-script) script that converts the Windows game into a native Apple Silicon port
 
 ## <a id="mod-managers"></a>Mod managers
