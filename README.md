@@ -312,7 +312,7 @@ The first four are decompilations of [Christian Whitehead](https://en.wikipedia.
 - [Sonic CD](https://github.com/Sappharad/Sonic-CD-11-Decompilation)
 - [Sonic Mania](https://github.com/Sappharad/Sonic-Mania-Decompilation)
 - Sonic Unleashed [GitHub project](https://github.com/hedge-dev/UnleashedRecomp),
-To download the latest Apple Silicon binary of Sonic Unleashed:
+To download the latest Apple Silicon binary of Sonic Unleashed (you must be logged in on GitHub for this to work):
 1. click [this link](https://github.com/squidbus/UnleashedRecomp/actions/workflows/validate-internal.yml)
 2. click on the topmost "generate build"
 3. in the left pane, expand the "build" section by clicking on it, then click on Build macOS (arm64, macos-release)
