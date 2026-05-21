@@ -160,7 +160,7 @@ Cloud gaming runs games on a remote machine and streams the video output to your
 
 One option which is too often overlooked or unknown is Steam's [Remote Play Together](https://store.steampowered.com/together). With this feature, you can play with your friends online, even if only one player owns the game, and even if the game isn't available for macOS, at no cost. [Here is the page for all supported games](https://store.steampowered.com/remoteplay_together).
 
-- [NVIDIA GeForce Now](https://www.nvidia.com/en-us/geforce-now/) (If you're having stuttering issues over WiFi, [here's a fix](https://www.reddit.com/r/GeForceNOW/comments/195l8ff/stuttering_issues_with_geforce_now_on_macos_over/))
+- [NVIDIA GeForce Now](https://www.nvidia.com/en-us/geforce-now/) (If you're having stuttering issues over WiFi, [here's a fix](https://www.reddit.com/r/GeForceNOW/comments/195l8ff/stuttering_issues_with_geforce_now_on_macos_over/). There is also a [menubar tool](https://github.com/victorbrandaao/GFNOptimizer/releases/tag/v1.0.1) to fix the issue)
 - [Xbox Cloud Gaming](https://www.xbox.com/en-US/cloud-gaming)
 - [Amazon Luna](https://luna.amazon.com) (works only on Google Chrome, free weekly games with Amazon Prime)
 - [Boosteroid](https://boosteroid.com/)
