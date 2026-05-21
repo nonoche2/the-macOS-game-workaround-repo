@@ -336,8 +336,9 @@ To download the latest Apple Silicon binary of Sonic Unleashed (you must be logg
 - [Road to Vostok](https://github.com/Ozicom23/road-to-vostok-mac-build-script) script that converts the Windows game into a native Apple Silicon port
 
 ## <a id="mod-managers"></a>Mod managers
-- [MelonLoader](https://github.com/LavaGang/MelonLoader/)
-- [R2ModMac](https://github.com/Zard-Studios/r2modmac)
+- [MelonLoader](https://github.com/LavaGang/MelonLoader/): a mod manager for Unity games
+- [R2ModMac](https://github.com/Zard-Studios/r2modmac): a mod manager for Thunderstore supported games
+- [Prism Launcher](https://prismlauncher.org/): a mod manager dedicated to Minecraft
 
 ## <a id="making-vr-work"></a>Making SteamVR work
 People have made some progress with running tethered VR games:
