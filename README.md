@@ -104,8 +104,9 @@ Unless you are keen on building everything from source and integrating the layer
 - [Heroic Games Launcher](https://heroicgameslauncher.com/) (free and open source)
 - [Porting Kit](https://www.portingkit.com/) (free)
 - [Game Porting Toolkit](https://developer.apple.com/games/game-porting-toolkit/) (command-line interface only, free)
-- [Wine](https://www.winehq.org/) (command-line interface only, free and open source)
+- [Wine](https://www.winehq.org/) (free and open source)
 - [ChooChoo Loader](https://github.com/wowitsjack/choochoo-loader/)[^2]
+- [Yaagl](https://github.com/yaagl/yet-another-anime-game-launcher) (specific for GI/HSR/ZZZ)
 
 [Winetricks](https://github.com/Winetricks/winetricks) is a script (embedded in CrossOver, Sikarugir, and Heroic) which allows installation of necessary dependencies (such as Microsoft DLLs and fonts), tweak settings, and workarounds to make games work with Wine and its derivatives.
 
@@ -148,11 +149,11 @@ Virtualization aims to setup a guest operating system, sharing resources with th
 - [Parallels Desktop](https://www.parallels.com/) (the only *Microsoft-sanctioned* solution to virtualize Windows for ARM, paid)
 - [VMWare Fusion](https://blogs.vmware.com/teamfusion/2024/05/fusion-pro-now-available-free-for-personal-use.html) (free for personal use)
 - [Oracle VirtualBox](https://www.virtualbox.org/) (free)
-- [UTM](https://apps.apple.com/us/app/utm-virtual-machines/id1538878817) (free)
+- [UTM](https://apps.apple.com/us/app/utm-virtual-machines/id1538878817) (free and open source)
 
 
 > [!CAUTION]
-> Limitations should be kept in mind. For example, [UTM does not support any GPU acceleration](https://mac.getutm.app/). Also, while you technically can use some virtualization tools to emulate Windows x86 on Apple Silicon, there will be a huge performance penalty. For this reason, almost all the tools above only support Windows for ARM on Apple Silicon. This means you would need to verify your game will run on that version of the operating system without issue.
+> Limitations should be kept in mind. For example, [UTM does not support any GPU acceleration](https://mac.getutm.app/). Also, while you technically can use some virtualization tools to emulate Windows x86 on Apple Silicon, there will be a huge performance penalty. For this reason, almost all the tools above only support Windows for ARM on Apple Silicon (which runs faster). This means you would need to verify your game will run on that version of the operating system without issue.
 
 ## <a id="cloud-gaming"></a>Cloud Gaming
 
@@ -327,7 +328,6 @@ To download the latest Apple Silicon binary of Sonic Unleashed (you must be logg
 - [Counter-Strike Source](https://jxhug.notion.site/Guide-to-Installing-Counter-Strike-Source-Using-the-Source-Engine-f956b3e067534cd0b9fed2ff7b21a64a)
 - [Omori](https://github.com/SnowpMakes/omori-apple-silicon)
 - [Asterix & Obelix XXL: Romastered](https://www.reddit.com/r/macgaming/comments/1im79hr/a_fix_for_asterix_obelix_xxl_romastered/) (note: while that makes the game run and play perfectly for the first level, the game crashes when starting level 2…)
-- [Anime games](https://github.com/yaagl/yet-another-anime-game-launcher) (GI/HSR/ZZZ)
 - [Final Fantasy XIV](https://www.xivmac.com/)
 - [Badland: Game of The year edition](https://www.reddit.com/r/macgaming/comments/1j1daxy/a_fix_for_badland_game_of_the_year_edition/): fix for the crash at launch but the game still won't make any sound
 - [Frown](https://github.com/coatlessali/Frown/releases/tag/2025.04.15): Ultrakill
