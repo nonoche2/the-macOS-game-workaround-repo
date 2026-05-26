@@ -64,7 +64,7 @@ The Epic Games Store will mention "Mac" in the supported platforms at the bottom
 
 ### <a id="32-bit-mac-games"></a>32-bit Mac Games
 
-When Apple decided to drop 32-bit support with macOS Catalina, many Mac games became non-functional overnight. The games could still be played provided you didn't update macOS but since Steam eventually also dropped support for 32-bit on macOS, there is no way to run these games natively on macOS anymore, at least not directly, but the warkarounds listed here can apply in some cases.
+When Apple decided to drop 32-bit support with macOS Catalina, many Mac games became non-functional overnight. The games could still be played provided you didn't update macOS but since Steam eventually also dropped support for 32-bit on macOS, there is no way to run these games natively on macOS anymore, at least not directly, but the workarounds listed here can apply in some cases.
 
 > [!NOTE]
 > Valve decided to make developers manually specify if their game was 64-bit in the SteamWorks database, making games 32-bit by default. Games assumed to be 32-bit are signaled in the game library by an icon (🚫) next to their name and a message on their description page in the store, atop the "add to cart" button.
@@ -273,7 +273,7 @@ You can run RPG Maker 2000/2003 games with [EasyRPG Player](https://easyrpg.org/
 
 ### <a id="mac-source-ports"></a>Mac Source Ports
 
-These are games or game engines which either became open source or were retro-engineered, compiled, signed, and notarized for macOS by Tom Kidd, supporting [156 games](https://www.macsourceports.com/) when this guide was published.
+These are games or game engines which either became open source, were reverse engineered or remade from zero. Tom Kidd builds, signs, and notarize many of them for macOS (even ones that didn't had macOS support), supporting [156 games](https://www.macsourceports.com/) when this guide was published.
 
 ### <a id="scummvm"></a>ScummVM
 
@@ -330,12 +330,12 @@ To download the latest Apple Silicon binary of Sonic Unleashed (you must be logg
 - [Anime games](https://github.com/yaagl/yet-another-anime-game-launcher) (GI/HSR/ZZZ)
 - [Final Fantasy XIV](https://www.xivmac.com/)
 - [Badland: Game of The year edition](https://www.reddit.com/r/macgaming/comments/1j1daxy/a_fix_for_badland_game_of_the_year_edition/): fix for the crash at launch but the game still won't make any sound
-- [AppleBlox](https://appleblox.com/): a Roblox launcher for macOS
 - [Frown](https://github.com/coatlessali/Frown/releases/tag/2025.04.15): Ultrakill
 - [Doukutsu-RS](https://doukutsu.rs/): Cave Story+
 - [Road to Vostok](https://github.com/Ozicom23/road-to-vostok-mac-build-script) script that converts the Windows game into a native Apple Silicon port
 
 ## <a id="mod-managers"></a>Mod managers
+- [AppleBlox](https://appleblox.com/): a Roblox launcher for macOS
 - [MelonLoader](https://github.com/LavaGang/MelonLoader/): a mod manager for Unity games
 - [R2ModMac](https://github.com/Zard-Studios/r2modmac): a mod manager for Thunderstore supported games
 - [Prism Launcher](https://prismlauncher.org/): a mod manager dedicated to Minecraft
