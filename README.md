@@ -64,7 +64,7 @@ The Epic Games Store will mention "Mac" in the supported platforms at the bottom
 
 ### <a id="32-bit-mac-games"></a>32-bit Mac Games
 
-When Apple decided to drop 32-bit support with macOS Catalina, many Mac games became non-functional overnight. The games could still be played provided you didn't update macOS but since Steam eventually also dropped support for 32-bit on macOS, there is no way to run these games natively on macOS anymore, at least not directly, but the warkarounds listed here can apply in some cases.
+When Apple decided to drop 32-bit support with macOS Catalina, many Mac games became non-functional overnight. The games could still be played provided you didn't update macOS but since Steam eventually also dropped support for 32-bit on macOS, there is no way to run these games natively on macOS anymore, at least not directly, but the workarounds listed here can apply in some cases.
 
 > [!NOTE]
 > Valve decided to make developers manually specify if their game was 64-bit in the SteamWorks database, making games 32-bit by default. Games assumed to be 32-bit are signaled in the game library by an icon (🚫) next to their name and a message on their description page in the store, atop the "add to cart" button.
@@ -104,8 +104,9 @@ Unless you are keen on building everything from source and integrating the layer
 - [Heroic Games Launcher](https://heroicgameslauncher.com/) (free and open source)
 - [Porting Kit](https://www.portingkit.com/) (free)
 - [Game Porting Toolkit](https://developer.apple.com/games/game-porting-toolkit/) (command-line interface only, free)
-- [Wine](https://www.winehq.org/) (command-line interface only, free and open source)
+- [Wine](https://www.winehq.org/) (free and open source)
 - [ChooChoo Loader](https://github.com/wowitsjack/choochoo-loader/)[^2]
+- [Yaagl](https://github.com/yaagl/yet-another-anime-game-launcher) (specific for GI/HSR/ZZZ)
 
 [Winetricks](https://github.com/Winetricks/winetricks) is a script (embedded in CrossOver, Sikarugir, and Heroic) which allows installation of necessary dependencies (such as Microsoft DLLs and fonts), tweak settings, and workarounds to make games work with Wine and its derivatives.
 
@@ -148,11 +149,11 @@ Virtualization aims to setup a guest operating system, sharing resources with th
 - [Parallels Desktop](https://www.parallels.com/) (the only *Microsoft-sanctioned* solution to virtualize Windows for ARM, paid)
 - [VMWare Fusion](https://blogs.vmware.com/teamfusion/2024/05/fusion-pro-now-available-free-for-personal-use.html) (free for personal use)
 - [Oracle VirtualBox](https://www.virtualbox.org/) (free)
-- [UTM](https://apps.apple.com/us/app/utm-virtual-machines/id1538878817) (free)
+- [UTM](https://apps.apple.com/us/app/utm-virtual-machines/id1538878817) (free and open source)
 
 
 > [!CAUTION]
-> Limitations should be kept in mind. For example, [UTM does not support any GPU acceleration](https://mac.getutm.app/). Also, while you technically can use some virtualization tools to emulate Windows x86 on Apple Silicon, there will be a huge performance penalty. For this reason, almost all the tools above only support Windows for ARM on Apple Silicon. This means you would need to verify your game will run on that version of the operating system without issue.
+> Limitations should be kept in mind. For example, [UTM does not support any GPU acceleration](https://mac.getutm.app/). Also, while you technically can use some virtualization tools to emulate Windows x86 on Apple Silicon, there will be a huge performance penalty. For this reason, almost all the tools above only support Windows for ARM on Apple Silicon (which runs faster). This means you would need to verify your game will run on that version of the operating system without issue.
 
 ## <a id="cloud-gaming"></a>Cloud Gaming
 
@@ -273,7 +274,7 @@ You can run RPG Maker 2000/2003 games with [EasyRPG Player](https://easyrpg.org/
 
 ### <a id="mac-source-ports"></a>Mac Source Ports
 
-These are games or game engines which either became open source or were retro-engineered, compiled, signed, and notarized for macOS by Tom Kidd, supporting [156 games](https://www.macsourceports.com/) when this guide was published.
+These are games or game engines which either became open source, were reverse engineered or remade from zero. Tom Kidd builds, signs, and notarize many of them for macOS (even ones that didn't had macOS support), supporting [156 games](https://www.macsourceports.com/) when this guide was published.
 
 ### <a id="scummvm"></a>ScummVM
 
@@ -327,15 +328,14 @@ To download the latest Apple Silicon binary of Sonic Unleashed (you must be logg
 - [Counter-Strike Source](https://jxhug.notion.site/Guide-to-Installing-Counter-Strike-Source-Using-the-Source-Engine-f956b3e067534cd0b9fed2ff7b21a64a)
 - [Omori](https://github.com/SnowpMakes/omori-apple-silicon)
 - [Asterix & Obelix XXL: Romastered](https://www.reddit.com/r/macgaming/comments/1im79hr/a_fix_for_asterix_obelix_xxl_romastered/) (note: while that makes the game run and play perfectly for the first level, the game crashes when starting level 2…)
-- [Anime games](https://github.com/yaagl/yet-another-anime-game-launcher) (GI/HSR/ZZZ)
 - [Final Fantasy XIV](https://www.xivmac.com/)
 - [Badland: Game of The year edition](https://www.reddit.com/r/macgaming/comments/1j1daxy/a_fix_for_badland_game_of_the_year_edition/): fix for the crash at launch but the game still won't make any sound
-- [AppleBlox](https://appleblox.com/): a Roblox launcher for macOS
 - [Frown](https://github.com/coatlessali/Frown/releases/tag/2025.04.15): Ultrakill
 - [Doukutsu-RS](https://doukutsu.rs/): Cave Story+
 - [Road to Vostok](https://github.com/Ozicom23/road-to-vostok-mac-build-script) script that converts the Windows game into a native Apple Silicon port
 
 ## <a id="mod-managers"></a>Mod managers
+- [AppleBlox](https://appleblox.com/): a Roblox launcher for macOS
 - [MelonLoader](https://github.com/LavaGang/MelonLoader/): a mod manager for Unity games
 - [R2ModMac](https://github.com/Zard-Studios/r2modmac): a mod manager for Thunderstore supported games
 - [Prism Launcher](https://prismlauncher.org/): a mod manager dedicated to Minecraft
