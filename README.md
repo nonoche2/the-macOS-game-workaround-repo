@@ -339,6 +339,7 @@ To download the latest Apple Silicon binary of Sonic Unleashed (you must be logg
 - [MelonLoader](https://github.com/LavaGang/MelonLoader/): a mod manager for Unity games
 - [R2ModMac](https://github.com/Zard-Studios/r2modmac): a mod manager for Thunderstore supported games
 - [Prism Launcher](https://prismlauncher.org/): a mod manager dedicated to Minecraft
+- [cp2077 Mac Archive Patcher](https://github.com/brunoformagio/cp2077-mac-archive-patcher): makes many archive-only PC mods work on the native macOS version of CyberPunk 2077
 
 ## <a id="making-vr-work"></a>Making SteamVR work
 People have made some progress with running tethered VR games:
