@@ -302,6 +302,16 @@ Some developers have managed to port some console games to other platforms, incl
 #### Playstation 2:
 - [Jak and Daxter 1, 2 and 3](https://opengoal.dev/)
 
+#### XBox 360:
+- [Skate 3]([https://github.com/mchughalex/skate3recomp](https://github.com/mchughalex/skate3recomp/releases/latest) (Apple Silicon)
+- Sonic Unleashed [GitHub project](https://github.com/hedge-dev/UnleashedRecomp),
+To download the latest Apple Silicon binary of Sonic Unleashed (you must be logged in on GitHub for this to work):
+1. click [this link](https://github.com/squidbus/UnleashedRecomp/actions/workflows/validate-internal.yml)
+2. click on the topmost "generate build"
+3. in the left pane, expand the "build" section by clicking on it, then click on Build macOS (arm64, macos-release)
+4. scroll down to "upload artifact" and clic on it to expand
+5. click on the link below "Artifact download URL:", your download will start
+
 
 
 ### <a id="sonic-ports"></a>Sonic Ports
