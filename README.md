@@ -242,7 +242,7 @@ If you have a Xbox and want to stream your games to play on your Mac, look at [L
 
 ### <a id="ms-dos-games"></a>MS-DOS Games
 
-- [Boxer](https://boxer.thec0de.com/) (turns MS-DOS games into macOS apps with an intuitive interface)
+- [Boxer](https://github.com/MaddTheSane/Boxer/releases/tag/AS-beta-4.1) (turns MS-DOS games into macOS apps with an intuitive interface)
 - [DOSBox](https://www.dosbox.com/)
 - [DOSBox-X](https://dosbox-x.com/) (a more flexible version of DOSBox, with more features)
 - [DOSBox Staging](https://www.dosbox-staging.org/) (a more modern version of DOXBox, complete with CRT emulation)
