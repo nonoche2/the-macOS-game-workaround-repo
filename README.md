@@ -102,6 +102,7 @@ Unless you are keen on building everything from source and integrating the layer
 - [CrossOver](https://www.codeweavers.com/crossover/) (paid, see footnote)[^1]
 - [Sikarugir](https://github.com/Sikarugir-App/Sikarugir) (successor of Wineskin and Kegworks, free and open source)
 - [Heroic Games Launcher](https://heroicgameslauncher.com/) (free and open source)
+- [GameHub](https://www.gamemac.com/en) (beta)
 - [Porting Kit](https://www.portingkit.com/) (free)
 - [Game Porting Toolkit](https://developer.apple.com/games/game-porting-toolkit/) (command-line interface only, free)
 - [Wine](https://www.winehq.org/) (free and open source)
@@ -209,7 +210,7 @@ These games can be run either through emulation or virtualization depending on t
 
 - [ShadPS4](https://shadps4.net/) : PlayStation 4
 - [RPCS3](https://rpcs3.net/) : PlayStation 3 ([compatibility list](https://rpcs3.net/compatibility))
-- [AetherSX2](https://aethersx2.net/download-aethersx2-for-macs/) (discontinued and Apple Silicon only) and [PCSX2](https://pcsx2.net/) ([compatibility list](https://pcsx2.net/compat)): PlayStation 2
+- [PCSX2](https://pcsx2.net/) ([compatibility list](https://pcsx2.net/compat)) and [Armsx2](https://armsx2.net/) (native Apple Silicon): PlayStation 2
 - [DuckStation](https://www.duckstation.org/) : PS1
 - [Vita3K](https://vita3k.org) : PS Vita
 - [PPSSPP](https://www.ppsspp.org/) : PSP
