@@ -336,14 +336,13 @@ To download the latest Apple Silicon binary of Sonic Unleashed (you must be logg
 - [Half-Life 2](https://github.com/nonoche2/HL2-patcher)
 - [Half-Life 2 Episode 1 & 2](https://jxhug.notion.site/Guide-to-Installing-Half-Life-2-Using-Source-Engine-on-macOS-9fa5ffc910f5454ab0f0e5da2a9e5b9f)
 - [Portal](https://github.com/nonoche2/Portal-patcher)
-- [Counter-Strike Source](https://jxhug.notion.site/Guide-to-Installing-Counter-Strike-Source-Using-the-Source-Engine-f956b3e067534cd0b9fed2ff7b21a64a)
 - [Omori](https://github.com/SnowpMakes/omori-apple-silicon)
-- [Asterix & Obelix XXL: Romastered](https://www.reddit.com/r/macgaming/comments/1im79hr/a_fix_for_asterix_obelix_xxl_romastered/) (note: while that makes the game run and play perfectly for the first level, the game crashes when starting level 2…)
 - [Final Fantasy XIV](https://www.xivmac.com/)
-- [Badland: Game of The year edition](https://www.reddit.com/r/macgaming/comments/1j1daxy/a_fix_for_badland_game_of_the_year_edition/): fix for the crash at launch but the game still won't make any sound
 - [Frown](https://github.com/coatlessali/Frown/releases/tag/2025.04.15): Ultrakill
 - [Doukutsu-RS](https://doukutsu.rs/): Cave Story+
 - [Road to Vostok](https://github.com/Ozicom23/road-to-vostok-mac-build-script) script that converts the Windows game into a native Apple Silicon port
+
+Additionnally, here are some [fixes and upgrades](https://github.com/nonoche2/the-macOS-games-fixes-repo) for native Mac games.
 
 ## <a id="mod-managers"></a>Mod managers
 - [AppleBlox](https://appleblox.com/): a Roblox launcher for macOS
