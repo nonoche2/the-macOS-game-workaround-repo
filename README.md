@@ -296,6 +296,7 @@ Some developers have managed to port some console games to other platforms, incl
 - [Perfect Dark](https://github.com/shinra-electric/Perfect-Dark-Build-Script)
 - [Banjo Kazooie](https://github.com/BanjoRecomp/BanjoRecomp/releases/latest)
 - [Mario Kart 64](https://github.com/sonicdcer/MarioKart64Recomp/releases/latest)
+- [Golden Eye](https://github.com/ysrdevs/goldeneye-metal/releases/tag/v0.1.0) (Apple Silicon only)
 
 #### Wii/Wii U:
 - [The legend of Zelda: Twilight Princess](https://twilitrealm.dev/)
