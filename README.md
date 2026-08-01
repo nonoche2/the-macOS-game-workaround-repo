@@ -285,6 +285,9 @@ These are games or game engines which either became open source, were reverse en
 
 Some developers have managed to port some console games to other platforms, including the Mac, by providing tools that decompile released games and recompile them to the target platform as native applications. These often include faster/smoother execution than on the original hardware, quality of life improvements (support for different screen aspect ratio and resolution, improved graphics, support for mods, etc). For these to be legal, they cannot distribute copyrighted material so you need to provide a dump of the supported games for them to be "transformed" into a native Mac game.
 
+#### Gameboy
+- [Pokémon Red/Blue/Yellow](https://github.com/bryanthaboi/gen1recomp) with support for mods like [3D rendering](https://github.com/DramaticShape/DramaticShapeVoxelMod) ([video tutorial](https://www.youtube.com/watch?v=_01Sm2lWwgM&t=4s))
+
 #### Nintendo 64:
 
 - [The Legend of Zelda: Ocarina of Time](https://www.shipofharkinian.com/fr)
