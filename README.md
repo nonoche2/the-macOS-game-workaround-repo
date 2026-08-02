@@ -354,6 +354,7 @@ Additionnally, here are some [fixes and upgrades](https://github.com/nonoche2/th
 - [R2ModMac](https://github.com/Zard-Studios/r2modmac): a mod manager for Thunderstore supported games
 - [Prism Launcher](https://prismlauncher.org/): a mod manager dedicated to Minecraft
 - [cp2077 Mac Archive Patcher](https://github.com/brunoformagio/cp2077-mac-archive-patcher): makes many archive-only PC mods work on the native macOS version of CyberPunk 2077
+- [MacValheim Mod Manager](https://www.reddit.com/r/valheim/comments/1vdkoww/comment/p19v2l5/?context=1&screen_view_count=1&ext-referrer=DIRECT) a mod manager for Valheim
 
 ## <a id="making-vr-work"></a>Making SteamVR work
 People have made some progress with running tethered VR games:
