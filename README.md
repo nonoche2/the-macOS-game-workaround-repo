@@ -301,6 +301,9 @@ Some developers have managed to port some console games to other platforms, incl
 - [Mario Kart 64](https://github.com/sonicdcer/MarioKart64Recomp/releases/latest)
 - [Golden Eye](https://github.com/ysrdevs/goldeneye-metal/releases/tag/v0.1.0) (Apple Silicon only)
 
+#### GameCube:
+- [Animal Crossing](https://github.com/chrissotraidis/bellpad)
+
 #### Wii/Wii U:
 - [The legend of Zelda: Twilight Princess](https://twilitrealm.dev/)
 
