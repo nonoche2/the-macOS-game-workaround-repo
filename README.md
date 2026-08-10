@@ -303,6 +303,7 @@ Some developers have managed to port some console games to other platforms, incl
 
 #### GameCube:
 - [Animal Crossing](https://github.com/chrissotraidis/bellpad)
+- [Super Mario Sunshine](https://github.com/chrissotraidis/sunpad)
 
 #### Wii/Wii U:
 - [The legend of Zelda: Twilight Princess](https://twilitrealm.dev/)
