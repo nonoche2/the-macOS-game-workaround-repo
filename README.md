@@ -299,7 +299,6 @@ Some developers have managed to port some console games to other platforms, incl
 - [Perfect Dark](https://github.com/shinra-electric/Perfect-Dark-Build-Script)
 - [Banjo Kazooie](https://github.com/BanjoRecomp/BanjoRecomp/releases/latest)
 - [Mario Kart 64](https://github.com/sonicdcer/MarioKart64Recomp/releases/latest)
-- [Golden Eye](https://github.com/ysrdevs/goldeneye-metal/releases/tag/v0.1.0) (Apple Silicon only)
 
 #### GameCube:
 - [Animal Crossing](https://github.com/chrissotraidis/bellpad)
@@ -313,6 +312,7 @@ Some developers have managed to port some console games to other platforms, incl
 
 #### XBox 360:
 - [Skate 3](https://github.com/mchughalex/skate3recomp/releases/latest) (Apple Silicon)
+- [GoldenEye 007](https://github.com/ysrdevs/goldeneye-metal/releases/tag/v0.1.0) (Apple Silicon only)
 - Sonic Unleashed [GitHub project](https://github.com/hedge-dev/UnleashedRecomp),
 To download the latest Apple Silicon binary of Sonic Unleashed (you must be logged in on GitHub for this to work):
 1. click [this link](https://github.com/squidbus/UnleashedRecomp/actions/workflows/validate-internal.yml)
