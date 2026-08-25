@@ -300,10 +300,12 @@ Some developers have managed to port some console games to other platforms, incl
 - [Banjo Kazooie](https://github.com/BanjoRecomp/BanjoRecomp/releases/latest)
 - [Mario Kart 64](https://github.com/sonicdcer/MarioKart64Recomp/releases/latest)
 - [Paper Mario 64](https://github.com/chrissotraidis/paperpad)
+- [Extreme-G](https://gitlab.com/sonicdcer/ExtremeGRecomp)
 
 #### GameCube:
 - [Animal Crossing](https://github.com/chrissotraidis/bellpad)
 - [Super Mario Sunshine](https://github.com/chrissotraidis/sunpad)
+- [Metroid Prime](https://github.com/chrissotraidis/ectopad)
 
 #### Wii/Wii U:
 - [The legend of Zelda: Twilight Princess](https://twilitrealm.dev/)
@@ -352,6 +354,7 @@ To download the latest Apple Silicon binary of Sonic Unleashed (you must be logg
 - [Road to Vostok](https://github.com/Ozicom23/road-to-vostok-mac-build-script) script that converts the Windows game into a native Apple Silicon port
 - [mcpelauncher](https://github.com/hugonote/mcpelauncher-swift) launcher for Minecraft Bedrock
 - [SyobonKZ](https://m0rekz.github.io/SyobonKZ/): Syobon Action / Shobon no Action
+- [VA-11 Hall-A: Cyberpunk Bartender Action](https://github.com/noahhhi/VA-11-Hall-A-Modern-macOS-support/releases/tag/v1.0.0) universal binary patcher
 
 Additionnally, here are some [fixes and upgrades](https://github.com/nonoche2/the-macOS-games-fixes-repo) for native Mac games.
 
