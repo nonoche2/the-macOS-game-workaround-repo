@@ -318,6 +318,7 @@ Some developers have managed to port some console games to other platforms, incl
 - [Skate 3](https://github.com/mchughalex/skate3recomp/releases/latest) (Apple Silicon)
 - [GoldenEye 007](https://github.com/ysrdevs/goldeneye-metal/releases/tag/v0.1.0) (Apple Silicon only)
 - Sonic Unleashed [GitHub project](https://github.com/hedge-dev/UnleashedRecomp),
+- [Blue Dragon](https://github.com/zolaware/reblue/)
 To download the latest Apple Silicon binary of Sonic Unleashed (you must be logged in on GitHub for this to work):
 1. click [this link](https://github.com/squidbus/UnleashedRecomp/actions/workflows/validate-internal.yml)
 2. click on the topmost "generate build"
