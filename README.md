@@ -301,6 +301,7 @@ Some developers have managed to port some console games to other platforms, incl
 - [Mario Kart 64](https://github.com/sonicdcer/MarioKart64Recomp/releases/latest)
 - [Paper Mario 64](https://github.com/chrissotraidis/paperpad)
 - [Extreme-G](https://gitlab.com/sonicdcer/ExtremeGRecomp)
+- [Donkey Kong 64](https://dk64recomp.com/)
 
 #### GameCube:
 - [Animal Crossing](https://github.com/chrissotraidis/bellpad)
