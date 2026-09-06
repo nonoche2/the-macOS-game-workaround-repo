@@ -359,6 +359,7 @@ To download the latest Apple Silicon binary of Sonic Unleashed (you must be logg
 - [SyobonKZ](https://m0rekz.github.io/SyobonKZ/): Syobon Action / Shobon no Action
 - [VA-11 Hall-A: Cyberpunk Bartender Action](https://github.com/noahhhi/VA-11-Hall-A-Modern-macOS-support/releases/tag/v1.0.0) universal binary patcher
 - [32 bits LEGO games patcher](https://github.com/Yash-Singh1/lego-mac-compat)
+- [Peggle](https://github.com/JacksonDam/PeggleSilicon)
 
 Additionnally, here are some [fixes and upgrades](https://github.com/nonoche2/the-macOS-games-fixes-repo) for native Mac games.
 
