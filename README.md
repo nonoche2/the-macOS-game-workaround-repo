@@ -363,6 +363,7 @@ To download the latest Apple Silicon binary of Sonic Unleashed (you must be logg
 - [Grand Theft Auto Vice City](https://github.com/coldcue/reVC/releases/tag/revc-metal-macos-arm64) (Apple Silicon only)
 - [Counter Strike 1.6](https://github.com/Velaron/cs16-client)
 - [Real Racing 2](https://github.com/JacksonDam/real-racing-2-mac-patcher) (Intel only)
+- [The Simpsons: Hit & Run](https://github.com/VHSMODDING/HitAndRun-macOS)
 
 Additionnally, here are some [fixes and upgrades](https://github.com/nonoche2/the-macOS-games-fixes-repo) for native Mac games.
 
