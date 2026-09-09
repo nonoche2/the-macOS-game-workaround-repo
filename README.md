@@ -321,6 +321,7 @@ Some developers have managed to port some console games to other platforms, incl
 - [Blue Dragon](https://github.com/zolaware/reblue/)
 - [Crash Bandicoot: Wrath of Cortex](https://github.com/pkyanam/WumpaForge)
 - Sonic Unleashed [GitHub project](https://github.com/hedge-dev/UnleashedRecomp),
+
 To download the latest Apple Silicon binary of Sonic Unleashed (you must be logged in on GitHub for this to work):
 1. click [this link](https://github.com/squidbus/UnleashedRecomp/actions/workflows/validate-internal.yml)
 2. click on the topmost "generate build"
