@@ -363,6 +363,7 @@ To download the latest Apple Silicon binary of Sonic Unleashed (you must be logg
 - [VA-11 Hall-A: Cyberpunk Bartender Action](https://github.com/noahhhi/VA-11-Hall-A-Modern-macOS-support/releases/tag/v1.0.0) universal binary patcher
 - [32 bits LEGO games patcher](https://github.com/Yash-Singh1/lego-mac-compat) (Intel only)
 - [Peggle Deluxe, Peggle Night & Bejeweled 3](https://github.com/JacksonDam/PeggleSilicon) (Intel only)
+- [Grand Theft Auto III](https://github.com/gtamac/mac3) (Apple Silicon only)
 - [Grand Theft Auto Vice City](https://github.com/coldcue/reVC/releases/tag/revc-metal-macos-arm64) (Apple Silicon only)
 - [Counter Strike 1.6](https://github.com/Velaron/cs16-client)
 - [Real Racing 2](https://github.com/JacksonDam/real-racing-2-mac-patcher) (Intel only)
