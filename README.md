@@ -84,7 +84,9 @@ For 32 bits games that won't work with PlayCover, there is an emulator for the e
 #### <a id="tl-background"></a>Background
 
 For those who want to run Windows games (with no [native port](#native-mac-games)/[iOS version](#ios-versions)) on their Apple-silicon hardware (and not through a [cloud provider](#cloud-gaming)), this is likely the best option. Modern windows games (from this century) are going to be x86, Windows, likely [DirectX](https://en.wikipedia.org/wiki/DirectX)-based titles. This means multiple translation layers are necessary to play on an ARM (Apple silicon), macOS, [Metal](https://en.wikipedia.org/wiki/Metal_(API)) machine:
-- [Apple silicon only] Rosetta 2: Apple tool that translates x86 into ARM instructions
+- [Apple silicon only] x86 emulator: Translates x86 into ARM instructions 
+   - Rosetta 2: Apple-provided tool (Deprecated as of macOS 28)
+   - [FEX](https://fex-emu.com/)
 - Operating system layer: [Wine](https://www.winehq.org/) translates Windows API instructions into macOS API instructions on the fly
 - Graphics layers: : These translate the GPU instructions from DirectX API to Apple's Metal graphics API
    - [D3DMetal](https://developer.apple.com/games/game-porting-toolkit/): DirectX 11/12 to Metal
@@ -145,7 +147,7 @@ To advertise support for these instructions, `ROSETTA_ADVERTISE_AVX=1` must be a
 
 ### <a id="virtualization"></a>Virtualization
 
-Virtualization aims to setup a guest operating system, sharing resources with the macOS host. It differs from emulation because it attempts to run the operating system natively and share the host processor between the host and guest. For instance, a Nintendo Switch runs on an ARM processor, and thus can be virtualized on an Apple Silicon-based Mac. While there is an overhead compared to running a game on its original platform since the hardware is shared with macOS, it's generally faster than emulation, which converts one instruction set to another. Unlike translation layers, virtualization requires installing complete operating systems (like Windows or Linux) and is therefore usually more focused on general-purpose computing than gaming. **In fact, currently none of the following virtualization tools support DirectX 12.**
+Virtualization aims to setup a guest operating system, sharing resources with the macOS host. It differs from emulation because it attempts to run the operating system natively and share the host processor between the host and guest. For instance, a Nintendo Switch runs on an ARM processor, and thus can be virtualized on an Apple Silicon-based Mac. While there is an overhead compared to running a game on its original platform since the hardware is shared with macOS, it's generally faster than emulation, which converts one instruction set to another. Unlike translation layers, virtualization requires installing complete operating systems (like Windows or Linux) and is therefore usually more focused on general-purpose computing than gaming. **In fact, many of the following virtualization tools do not support DirectX 12.**
 
 - [Parallels Desktop](https://www.parallels.com/) (the only *Microsoft-sanctioned* solution to virtualize Windows for ARM, paid)
 - [VMWare Fusion](https://blogs.vmware.com/teamfusion/2024/05/fusion-pro-now-available-free-for-personal-use.html) (free for personal use)
@@ -154,7 +156,7 @@ Virtualization aims to setup a guest operating system, sharing resources with th
 
 
 > [!CAUTION]
-> Limitations should be kept in mind. For example, [UTM does not support any GPU acceleration](https://mac.getutm.app/). Also, while you technically can use some virtualization tools to emulate Windows x86 on Apple Silicon, there will be a huge performance penalty. For this reason, almost all the tools above only support Windows for ARM on Apple Silicon (which runs faster). This means you would need to verify your game will run on that version of the operating system without issue.
+> Limitations should be kept in mind. While you technically can use some virtualization tools to emulate Windows x86 on Apple Silicon, there will be a huge performance penalty. For this reason, almost all the tools above only support Windows for ARM on Apple Silicon. This means you would need to verify your game will run on that version of the operating system without issue.
 
 ## <a id="cloud-gaming"></a>Cloud Gaming
 
