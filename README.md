@@ -320,6 +320,7 @@ Some developers have managed to port some console games to other platforms, incl
 - [GoldenEye 007](https://github.com/ysrdevs/goldeneye-metal/releases/tag/v0.1.0) (Apple Silicon only)
 - [Blue Dragon](https://github.com/zolaware/reblue/)
 - [Crash Bandicoot: Wrath of Cortex](https://github.com/pkyanam/WumpaForge)
+- [Rayman Origins](https://github.com/BelmanteGu/RaymanOriginsRecomp)
 - Sonic Unleashed [GitHub project](https://github.com/hedge-dev/UnleashedRecomp),
 
 To download the latest Apple Silicon binary of Sonic Unleashed (you must be logged in on GitHub for this to work):
