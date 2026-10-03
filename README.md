@@ -370,7 +370,8 @@ To download the latest Apple Silicon binary of Sonic Unleashed (you must be logg
 - [Real Racing 2](https://github.com/JacksonDam/real-racing-2-mac-patcher) (Intel only)
 - [The Simpsons: Hit & Run](https://github.com/VHSMODDING/HitAndRun-macOS)
 - [MechCommander 2](https://github.com/jamesmoriarty/mech-commander-2-mac)
-- [Teenage Mutant Ninja Turtles: Shredder's Revenge](https://github.com/nonoche2/Shell-Shock)
+- [Teenage Mutant Ninja Turtles: Shredder's Revenge](https://github.com/nonoche2/Shell-Shock) (Universal Binary)
+- [Overwatch](https://github.com/AsherJN/recall/releases/?lastest) (Apple Silicon only)
 
 Additionnally, here are some [fixes and upgrades](https://github.com/nonoche2/the-macOS-games-fixes-repo) for native Mac games.
 
