@@ -321,6 +321,7 @@ Some developers have managed to port some console games to other platforms, incl
 - [Blue Dragon](https://github.com/zolaware/reblue/)
 - [Crash Bandicoot: Wrath of Cortex](https://github.com/pkyanam/WumpaForge)
 - [Rayman Origins](https://github.com/BelmanteGu/RaymanOriginsRecomp)
+- [Spider-Man: Edge of Time](https://github.com/goliathret/EdgeOfTimeRecomp)
 - Sonic Unleashed [GitHub project](https://github.com/hedge-dev/UnleashedRecomp),
 
 To download the latest Apple Silicon binary of Sonic Unleashed (you must be logged in on GitHub for this to work):
