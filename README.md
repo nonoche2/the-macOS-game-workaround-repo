@@ -240,6 +240,7 @@ If you have a Xbox and want to stream your games to play on your Mac, look at [L
 - [NoxPlayer](https://www.bignox.com/) (Doesn't work on Apple Silicon, free with ads/subscription)
 - [MumuPlayer](https://www.mumuplayer.com/mac/) (paid)
 - [Alloy](https://alloystation.com/) (Apple Silicon only, paid)
+- [Mac.apk](https://github.com/kksimp/Mac.apk-Releases) (Apple Silicon only, free & open source)
 
 ### <a id="ms-dos-games"></a>MS-DOS Games
 
