@@ -312,6 +312,7 @@ Some developers have managed to port some console games to other platforms, incl
 #### Wii/Wii U:
 - [The legend of Zelda: Twilight Princess](https://twilitrealm.dev/)
 - [Mario Kart Wii](https://github.com/chrissotraidis/kartpad)
+- [The Legend of Zelda: The Wind Waker](https://github.com/ZeldaWWHDRecomp/ZeldaWWHDRecomp/)
 
 #### Playstation 2:
 - [Jak and Daxter 1, 2 and 3](https://opengoal.dev/)
