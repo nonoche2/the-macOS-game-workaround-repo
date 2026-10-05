@@ -375,6 +375,7 @@ To download the latest Apple Silicon binary of Sonic Unleashed (you must be logg
 - [MechCommander 2](https://github.com/jamesmoriarty/mech-commander-2-mac)
 - [Teenage Mutant Ninja Turtles: Shredder's Revenge](https://github.com/nonoche2/Shell-Shock) (Universal Binary)
 - [Overwatch](https://github.com/AsherJN/recall/releases/?lastest) (Apple Silicon only)
+- [Harry Potter and the chamber of secrets](https://github.com/cefege/harry-potter-2-chamber-of-secrets-pc) (Apple Silicon only)
 
 Additionnally, here are some [fixes and upgrades](https://github.com/nonoche2/the-macOS-games-fixes-repo) for native Mac games.
 
