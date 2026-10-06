@@ -319,6 +319,9 @@ Some developers have managed to port some console games to other platforms, incl
 #### Playstation 2:
 - [Jak and Daxter 1, 2 and 3](https://opengoal.dev/)
 
+#### Playstation 3:
+- [God of War II HD](https://github.com/andrebrumdev/gow2-recomp) (Apple Silicon only)
+
 #### XBox 360:
 - [Skate 3](https://github.com/mchughalex/skate3recomp/releases/latest) (Apple Silicon)
 - [GoldenEye 007](https://github.com/ysrdevs/goldeneye-metal/releases/tag/v0.1.0) (Apple Silicon only)
