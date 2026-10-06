@@ -1,6 +1,8 @@
 # The macOS Game Workaround Repo
 A centralized list of every known way to make games run on macOS
 
+[![Ko-fi](https://img.shields.io/badge/Ko--fi-F16061?style=for-the-badge&logo=ko-fi&logoColor=white)](https://ko-fi.com/nonoche)
+
 ## Table of Contents
 
 1. [Native Mac Games](#native-mac-games)
