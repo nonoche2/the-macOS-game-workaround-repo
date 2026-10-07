@@ -318,6 +318,7 @@ Some developers have managed to port some console games to other platforms, incl
 
 #### Playstation 2:
 - [Jak and Daxter 1, 2 and 3](https://opengoal.dev/)
+- [Crash Twinsanity](https://github.com/HAB3X/Crash-Twinsanity-Mac)
 
 #### Playstation 3:
 - [God of War II HD](https://github.com/andrebrumdev/gow2-recomp) (Apple Silicon only)
