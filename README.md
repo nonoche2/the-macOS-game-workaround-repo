@@ -341,6 +341,11 @@ To download the latest Apple Silicon binary of Sonic Unleashed (you must be logg
 4. scroll down to "upload artifact" and clic on it to expand
 5. click on the link below "Artifact download URL:", your download will start
 
+#### Windows 32 bit:
+- [Populous: The Beginning](https://github.com/veritr1x/populous-recomp)
+- [Need For Speed: Most Wanted](https://github.com/elforeign/nfs-most-wanted-mac)
+- [Need For Speed: Carbon](https://github.com/vasist15-source/nfs-carbon-mac)
+
 
 
 ### <a id="sonic-ports"></a>Sonic Ports
