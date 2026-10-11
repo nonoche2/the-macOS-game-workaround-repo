@@ -373,6 +373,7 @@ To download the latest Apple Silicon binary of Sonic Unleashed (you must be logg
 - [Omori](https://github.com/SnowpMakes/omori-apple-silicon)
 - [Final Fantasy XIV](https://www.xivmac.com/)
 - [Frown](https://github.com/coatlessali/Frown/releases/tag/2025.04.15): Ultrakill
+- [Ultrakill](https://github.com/Yash-Singh1/ultrakill-mac) Universal Binary patcher
 - [Doukutsu-RS](https://doukutsu.rs/): Cave Story+
 - [Road to Vostok](https://github.com/Ozicom23/road-to-vostok-mac-build-script) script that converts the Windows game into a native Apple Silicon port
 - [mcpelauncher](https://github.com/hugonote/mcpelauncher-swift) launcher for Minecraft Bedrock
