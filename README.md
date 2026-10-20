@@ -87,7 +87,7 @@ For 32 bits games that won't work with PlayCover, there is an emulator for the e
 
 For those who want to run Windows games (with no [native port](#native-mac-games)/[iOS version](#ios-versions)) on their Apple-silicon hardware (and not through a [cloud provider](#cloud-gaming)), this is likely the best option. Modern windows games (from this century) are going to be x86, Windows, likely [DirectX](https://en.wikipedia.org/wiki/DirectX)-based titles. This means multiple translation layers are necessary to play on an ARM (Apple silicon), macOS, [Metal](https://en.wikipedia.org/wiki/Metal_(API)) machine:
 - [Apple silicon only] x86 emulator: Translates x86 into ARM instructions 
-   - Rosetta 2: Apple-provided tool (Deprecated as of macOS 28)
+   - Rosetta 2: Apple-provided tool (partially deprecated as of macOS 28)
    - [FEX](https://fex-emu.com/)
 - Operating system layer: [Wine](https://www.winehq.org/) translates Windows API instructions into macOS API instructions on the fly
 - Graphics layers: : These translate the GPU instructions from DirectX API to Apple's Metal graphics API
