@@ -76,7 +76,7 @@ When Apple decided to drop 32-bit support with macOS Catalina, many Mac games be
 
 ## <a id="ios-versions"></a>iOS Versions
 
-Some Windows games have also been released for iPhone and iPad, and those apps can technically run on Apple Silicon-based Macs when allowed by their publishers on the App Store, which is arguably the closest thing to a native macOS version. However, many games are simply not allowed to run. There is a workaround for this with [PlayCover](https://playcover.io/) and [Sideloadly](https://sideloadly.io/), which are free apps that allow sideloading and running decrypted iOS/iPadOS apps on Apple Silicon-based Macs.
+Some Windows games have also been released for iPhone and iPad, and those apps can technically run on Apple Silicon-based Macs when allowed by their publishers on the App Store, which is arguably the closest thing to a native macOS version. However, many games are simply not allowed to run. There is a workaround for this with [PlayCover](https://playcover.io/), [Pear Silicone](https://pearsilicone.techoxium.com/) and [Sideloadly](https://sideloadly.io/), which are free apps that allow sideloading and running decrypted iOS/iPadOS apps on Apple Silicon-based Macs.
 For 32 bits games that won't work with PlayCover, there is an emulator for the early iPhones called [touchHLE](https://github.com/touchHLE/touchHLE/releases).
 
 ## <a id="modern-windows-games"></a>Modern Windows Games
