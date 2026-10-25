@@ -115,6 +115,8 @@ Unless you are keen on building everything from source and integrating the layer
 
 [Winetricks](https://github.com/Winetricks/winetricks) is a script (embedded in CrossOver, Sikarugir, and Heroic) which allows installation of necessary dependencies (such as Microsoft DLLs and fonts), tweak settings, and workarounds to make games work with Wine and its derivatives.
 
+One advantage Linux gamers have when it comes to translating Windows games is Proton, a translation layer Valve commmissioned CodeWeaver (the creators of CrossOver and main contributors to Wine) to develop for them, and integrated it straight into the Linux version of Steam, allowing Linux users to install and launch Windows games straight from Steam transparently as if they were native Linux games. On macOS, when using a translation layer tool like the ones mentioned above,  you need to install the Windows version of Steam with them to be able to install and launch Windows games, effectively having two separate Steam Libraries (one for native macOS games and one for Windows games) on your Mac. Fortunately, [NotProton](https://github.com/NotProtonNot/NotProton) manages to integrate CrossOver in the Mac version of Steam and allows you to install and launch Windows games straight from Steam, without needing to manage two separate libraries, just like Proton does on Linux. One downside is that it's recommended to prevent the Mac version of Steam from updating as it might break compatibility with NotProton.
+
 
 > [!NOTE]
 > While not every Windows game will work flawlessly (most notably, games with anti-cheat protection won't run), translation layers are usually the best option to try before virtualization
@@ -156,9 +158,12 @@ Virtualization aims to setup a guest operating system, sharing resources with th
 - [Oracle VirtualBox](https://www.virtualbox.org/) (free)
 - [UTM](https://apps.apple.com/us/app/utm-virtual-machines/id1538878817) (free and open source)
 
-
 > [!CAUTION]
 > Limitations should be kept in mind. While you technically can use some virtualization tools to emulate Windows x86 on Apple Silicon, there will be a huge performance penalty. For this reason, almost all the tools above only support Windows for ARM on Apple Silicon. This means you would need to verify your game will run on that version of the operating system without issue.
+
+A special case of virtulization is to run SteamOS in a lightweight Linux virtual machine, complete with replacing Rosetta 2 with FEX (which supports Intel 32 bit execution) and plug Valve's Proton into macOS's Metal rendering through [Kosmic Crisp](https://www.lunarg.com/products/kosmickrisp/), which recently achieved Vulkan 1.4 conformance, effectively transforming your Mac into a Steam Deck. While this can improve compatibility with certain Windows games over other solutions, one downside compared to translation layers is that these require more RAM to run two complete OS at once (so if you want to run a game requiring 8 GB of RAM, you'll need 16 GB on your Mac). The apps below allow you to install and run SteamOS on your Mac with relative ease:
+- [Varmint](https://github.com/kisasexypantera94/varmint)
+- [FX Steam Launcher/Steamac](https://fxgl.github.io/steamac/)
 
 ## <a id="cloud-gaming"></a>Cloud Gaming
 
