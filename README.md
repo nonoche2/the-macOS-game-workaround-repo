@@ -325,6 +325,9 @@ Some developers have managed to port some console games to other platforms, incl
 - [Mario Kart Wii](https://github.com/chrissotraidis/kartpad)
 - [The Legend of Zelda: The Wind Waker](https://github.com/ZeldaWWHDRecomp/ZeldaWWHDRecomp/)
 
+#### Nintendo Switch:
+[NxNative](https://github.com/seedds/nxnative) is a generic recompiler for Apple Silicon based Macs, iPhones and iPads, which supports 53 games at the time of this publication. You can follow [this guide](https://www.applegamingwiki.com/wiki/Nxnative_Switch_to_Mac_conversion) to recompile Switch games to Mac.
+
 #### Playstation 2:
 - [Jak and Daxter 1, 2 and 3](https://opengoal.dev/)
 - [Crash Twinsanity](https://github.com/HAB3X/Crash-Twinsanity-Mac)
