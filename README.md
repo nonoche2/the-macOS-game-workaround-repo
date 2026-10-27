@@ -326,7 +326,7 @@ Some developers have managed to port some console games to other platforms, incl
 - [The Legend of Zelda: The Wind Waker](https://github.com/ZeldaWWHDRecomp/ZeldaWWHDRecomp/)
 
 #### Nintendo Switch:
-[NxNative](https://github.com/seedds/nxnative) is a generic recompiler for Apple Silicon based Macs, iPhones and iPads, which supports 53 games at the time of this publication. You can follow [this guide](https://www.applegamingwiki.com/wiki/Nxnative_Switch_to_Mac_conversion) to recompile Switch games to Mac.
+[NxNative](https://github.com/seedds/nxnative) is a generic recompiler for Apple Silicon based Macs, iPhones and iPads, which supports 53 games at the time of this publication. You can follow [this guide](https://www.applegamingwiki.com/wiki/Nxnative_Switch_to_Mac_conversion) to recompile Switch games to Mac. You can also use [MetalNX](https://github.com/krushant1122/MetalNX) if you prefer a UI instead of dealing with the Terminal to recompile games.
 
 #### Playstation 2:
 - [Jak and Daxter 1, 2 and 3](https://opengoal.dev/)
