@@ -1,4 +1,4 @@
-# The macOS Game Workaround Repo
+x# The macOS Game Workaround Repo
 A centralized list of every known way to make games run on macOS
 
 [![Ko-fi](https://img.shields.io/badge/Ko--fi-F16061?style=for-the-badge&logo=ko-fi&logoColor=white)](https://ko-fi.com/nonoche)
@@ -351,10 +351,11 @@ To download the latest Apple Silicon binary of Sonic Unleashed (you must be logg
 4. scroll down to "upload artifact" and clic on it to expand
 5. click on the link below "Artifact download URL:", your download will start
 
-#### Windows 32 bit:
+#### Windows:
 - [Populous: The Beginning](https://github.com/veritr1x/populous-recomp)
 - [Need For Speed: Most Wanted](https://github.com/elforeign/nfs-most-wanted-mac)
 - [Need For Speed: Carbon](https://github.com/vasist15-source/nfs-carbon-mac)
+- [Halo: The Master Chief Collection](https://projectreclaimer.dev/)
 
 
 
