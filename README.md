@@ -403,6 +403,7 @@ To download the latest Apple Silicon binary of Sonic Unleashed (you must be logg
 - [Overwatch](https://github.com/AsherJN/recall/releases/?lastest) (Apple Silicon only)
 - [Harry Potter and the chamber of secrets](https://github.com/cefege/harry-potter-2-chamber-of-secrets-pc) (Apple Silicon only)
 - [Lethal Company](https://github.com/ParalelSt/lethal-company-native-mac-port)
+- [Oni](https://github.com/andiyar/OniARM64)
 
 Additionnally, here are some [fixes and upgrades](https://github.com/nonoche2/the-macOS-games-fixes-repo) for native Mac games.
 
